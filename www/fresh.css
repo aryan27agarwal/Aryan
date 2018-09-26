@@ -12,6 +12,7 @@ div.background {
 img.logo {
     text-align: center;
     display: inline-block;
+    width: 65%;
     max-width: 350px;
 }
 div.wrapper {
