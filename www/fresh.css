@@ -45,6 +45,16 @@ div.heading h1 {
     font-family: 'Raleway', sans-serif;
 }
 
+div.heading h3 {
+    margin: 0;
+    color: #fff;
+    font-weight: 100;
+    text-transform: lowercase;
+    letter-spacing: 0.15em;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
 div.boxwrapper {
     text-align: center;
 }
