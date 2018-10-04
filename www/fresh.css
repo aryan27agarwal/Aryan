@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400');
 body {
     margin: 0;
+    background-color: #21152b;
 }
 div.background {
     background-image: url(bg.gif);
@@ -58,7 +59,7 @@ div.heading h3 {
 div.boxwrapper {
     text-align: center;
 }
-div.box {
+button.box {
     display: inline-block;
     margin: 5em;
     margin-left: 1em;
@@ -67,11 +68,13 @@ div.box {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    font-size: 1em;
     padding: 1em;
     border: 1px solid white;
     letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0);
 }
-div.box.blue {
+button.blue {
     background-color: #095988;
     border: 1px solid #095988;
 }
@@ -81,4 +84,32 @@ div.arrow {
     color: #fff;
     font-size: 2em;
     font-family: 'Raleway', sans-serif;
+}
+
+div.navbar {
+    text-align: right;
+    padding: 1%;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    display: inline;
+}
+
+ul.navbar li {
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    padding: 1%;
+    font-weight: 100;
+    transition: all 0.3s;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+ul.navbar li:hover {
+    border-bottom: 2px solid #fff;
 }
