@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title> ENTHUSIAST</title>
+</head>
+<body>
+  <form method="post" action="startup.php">
+    <h1>Are you a startup enthusiast ? </h1>
+    <h2 > Register with us </h2>
+    NAME<br>
+    <input type="text" placeholder="Your full name" name="name"><br><br>
+  EMAIL<br>
+  <input type="email" placeholder="Your EMAIL address" name="email"><br><br>
+PHONE<br>
+<input type="number" placeholder="Our point of contact" name="phno"><br><br>
+City<br>
+<input type="text"  name="city" placeholder="Eg.DELHI"> <br><br>
+WHY?<br>
+<input type="text" placeholder="Tell us why would you like to enroll" name="why"><br><br>
+University/Institution<br>
+<input type="text" name="University"  value="GD Goenka University"><br><br>
+Other<br>
+<input type="text" placeholder="Anything else you would like us to know" name="Other" ><br><br>
+<p>
+<b>  We will keep you posted with further updates and may invite you for our meetups on your provided contact details.
+</b></p>
+<input id="opt-in" onclick="inchanged()" type="radio" name="opt" value="opt-in">Opt-in<br>
+<input id="opt-out " checked type="radio" onclick="outchanged()" name="opt" value="opt-out">Opt-out<br>
+<input id="Submit" disabled="disabled" type="submit" value="Submit"> <t><input type="reset" value="Cancel">
+</form>
+<script>
+function outchanged() {
+document.getElementById("Submit").disabled=true;
+}
+function inchanged(){
+  document.getElementById("Submit").disabled=false;
+}
+</script>
+</body>
+</html>
