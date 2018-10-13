@@ -117,3 +117,7 @@ ul.navbar li:hover {
 	background-image:none;
 	box-shadow:none;
 }
+.nav.navbar-nav.navbar-right
+{
+	color: white;
+}
