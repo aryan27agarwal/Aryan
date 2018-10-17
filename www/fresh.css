@@ -9,6 +9,7 @@ div.background {
     background-attachment: fixed;
     width: 100vw;
     min-height: 100vh;
+    margin: 0;
 }
 img.logo {
     text-align: center;
@@ -19,7 +20,6 @@ img.logo {
 div.wrapper {
     background-color: rgba(0, 0, 0, 0.65);
     width: 100vw;
-    min-height: 100vh;
 }
 div.heading h2 {
     margin: 0;
@@ -110,14 +110,4 @@ ul.navbar li {
 
 ul.navbar li:hover {
     border-bottom: 2px solid #fff;
-}
-.navbar-default {
-	background-color: transparent !important;
-	border-color:transparent;
-	background-image:none;
-	box-shadow:none;
-}
-.nav.navbar-nav.navbar-right
-{
-	color: white;
 }
