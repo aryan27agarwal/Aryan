@@ -4,8 +4,39 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="styling.css">
  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  <link rel="stylesheet" type="text/css" href="styling.css">
  <title>EVENT</title>
+ <style>
+ .nav.navbar-nav.navbar-right li.active a.whitish {
+  color: black;
+ }
+ .navbar-default {
+ 	background-color: transparent !important;
+ 	border-color:transparent;
+ 	background-image:none;
+ 	box-shadow:none;
+ }
+ .nav.navbar-nav.navbar-right li a.whitish {
+ 	color: #fff;
+ }
+ body {
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+ div.background {
+     background-image: url(bg.gif);
+     background-size: cover;
+     background-attachment: fixed;
+     width: 100vw;
+     min-height: 6.9vh;
+ }
+ </style>
  <style>
 #more {display: none;}
 #more1 {display: none;}
@@ -13,9 +44,31 @@
 </head>
 
 <body>
+  <div class='background'>
+    <nav class="navbar-default">
+      <div class="container-fluid">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html" class="whitish">Home</a></li>
+          <li><a href="#" class="whitish">Testimonials</a></li>
+          <li><a href="#" class="whitish">Events</a></li>
+          <li class='active'><a href="#" class="whitish">Contact Us</a></li>
+            <li><a href="team.html" class="whitish">Support Team</a></li>
+          <li><a href="enthusiasts/index.html" class="whitish">Register</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
 <div class="heading">
   <h1> Event</h1>
 </div>
+<table>
+  <tr>
+    <td><h1>Past Events</h1></td>
+    <td><h1>Upcomming Events</h1></td>
+  </tr>
 <tr>
   <td>
  <div class="Instagram-card">
@@ -26,12 +79,12 @@
    </div>
 
 <div  class="Instagram-card-image" >
-     <img class="mySlides" src="Udyami.jpg" height=500px>
-     <img class="mySlides" src="Udyami1.jpg" height=500px>
-     <img class="mySlides" src="Udyami2.jpg" height=500px>
-     <img class="mySlides" src="Udyami3.jpg" height=500px>
-     <img class="mySlides" src="_DSC0071.jpg" height="500px">
-     <img class="mySlides" src="_DSC0072.jpg" height="500px">
+     <img class="mySlides" src="Udyami.jpg" height=450px width=600px>
+     <img class="mySlides" src="Udyami1.jpg" height=450px width=600px>
+     <img class="mySlides" src="Udyami2.jpg" height=450px width=600px>
+     <img class="mySlides" src="Udyami3.jpg" height=450px width=600px>
+     <img class="mySlides" src="_DSC0071.jpg" height=450px width=600px>
+     <img class="mySlides" src="_DSC0072.jpg" height=450px width=600px>
 
    </div>
 
@@ -87,30 +140,18 @@ function myFunction() {
     </div>
 
  <div  class="Instagram-card-image" >
-      <img class="mySlides" src="Udyami.jpg" height=500px>
-      <img class="mySlides" src="Udyami1.jpg" height=500px>
-      <img class="mySlides" src="Udyami2.jpg" height=500px>
-      <img class="mySlides" src="Udyami3.jpg" height=500px>
-      <img class="mySlides" src="_DSC0071.jpg" height="500px">
-      <img class="mySlides" src="_DSC0072.jpg" height="500px">
+      <img class="mySlides" src="Udyami.jpg" height=450px width=600px>
+      <img class="mySlides" src="Udyami1.jpg"height=450px width=600px>
+      <img class="mySlides" src="Udyami2.jpg" height=450px width=600px>
+      <img class="mySlides" src="Udyami3.jpg" height=450px width=600px>
+      <img class="mySlides" src="_DSC0071.jpg" height=450px width=600px>
+      <img class="mySlides" src="_DSC0072.jpg" height=450px width=600px>
 
     </div>
 
     <script>
     var myIndex = 0;
     carousel();
-
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
     </script>
   <div class="Instagram-card-content">
 
@@ -140,6 +181,8 @@ function myFunction() {
 </div>
 </td>
 </tr>
+</table>
+
 <br><br>
 
 
@@ -151,7 +194,7 @@ function myFunction() {
    </div>
 
    <div class="Instagram-card-image">
-     <img  src= "Poster - IDEA 2017.jpg" height=500px/>
+     <img  src= "Poster - IDEA 2017.jpg"height=450px width=600px>
 
    </div>
 
