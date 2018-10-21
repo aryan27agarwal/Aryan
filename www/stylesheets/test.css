@@ -1,3 +1,9 @@
+/* frontpage section */
+div.full {
+    min-height: 100vh;
+}
+
+/* teams section */
 .teams {
     text-align: center;
     padding: 2em;
@@ -23,4 +29,27 @@ p.label {
 .test {
     height: 50vh;
     background-color: #000;
+}
+
+/* quote section */
+.quotebg {
+    background-color: rgb(37, 33, 87);
+    padding: 6em;
+    text-align: center;
+    margin: 0;
+}
+h1.quote {
+    color: #fff;
+    letter-spacing: 2px;
+}
+footer {
+    font-size: 1.5em;
+    color: rgb(178, 215, 240);
+}
+
+/* social section */
+.social {
+    background-color: rgb(175, 175, 175);
+    padding: 1em;
+    text-align: center;
 }

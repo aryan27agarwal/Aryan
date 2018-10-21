@@ -29,3 +29,15 @@ div.wrapper {
 .nav.navbar-nav.navbar-right li.active a.whitish {
 	color: black;
 }
+
+/* foot section */
+.contact {
+    letter-spacing: 1px;
+    font-size: 1.3em;
+}
+.foot {
+    text-align: center;
+    background-color: #111111;
+    color: #fff;
+    padding: 5%;
+}

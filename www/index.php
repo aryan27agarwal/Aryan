@@ -3,6 +3,23 @@ $title = 'Home';
 $stylesheets = array('/stylesheets/test.css');
 include('header.php');
 ?>
+
+<div class="background full">
+    <div class="wrapper full">
+
+    </div>
+</div>
+
+<!-- Quote -->
+<div class="quotebg">
+    <h1 class="quote">
+        "Build your own dreams, or someone else will hire you to build theirs."
+    </h1>
+    <footer>
+        -Farrah Grey
+    </footer>
+</div>
+
 <!-- Teams -->
 <div class="teams">
     <h1 class="head">Teams</h1>
@@ -27,8 +44,11 @@ include('header.php');
         <p class="label">Sponsorship</p>
     </div>
 </div>
-<div class="test">
+
+<div class="social">
+    𝐟 | ţ | 𝑖
 </div>
+
 <?php
 $scripts = array();
 include('footer.php');
