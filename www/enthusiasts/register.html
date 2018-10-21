@@ -24,7 +24,7 @@ body {
     box-sizing: border-box;
 }
 div.background {
-    background-image: url(bg.gif);
+    background-image: url(../images/bg.gif);
     background-size: cover;
     background-attachment: fixed;
     width: 100vw;
@@ -108,12 +108,19 @@ body{
 	border: 1px solid #16a085;
 	border-width: 1px 1px 3px;
 	margin-bottom: 5px;
+	border-radius: 10px 10px 10px 10px;
+
 }
 .form input[type="submit"]:hover,
 .form input[type="reset"]:hover
 {
-	background: #109177;
-	  border-radius: 15% / 25%;
+	color:black;
+}
+
+.form input[type="submit"]:link,
+.form input[type="reset"]:link
+{
+	background: #109179;
 }
 
 </style>
@@ -125,7 +132,7 @@ body{
 	<!--  ------------------------- -->
 
 	<!--  ------------------------- -->
-<!navigation bar>
+<!--<!navigation bar>-->
 	<div class='background'>
 	  <nav class="navbar-default">
 	    <div class="container-fluid">
@@ -145,7 +152,7 @@ body{
 <div class="form">
   <form method="post" action="startup.php"  autocomplete="on">
 
- <h1>Are you a startup enthusiast ? </h1>
+ <h1>Are you a startup enthusiast? </h1>
 
 <h2 > Register with us </h2>
 <input type="text" placeholder="Name" name="name"><br><br>
@@ -167,8 +174,8 @@ body{
 <input id="opt-in" onclick="inchanged()" type="radio" name="opt" value="opt-in">Opt-in<br>
 <input id="opt-out " checked type="radio" onclick="outchanged()" name="opt" value="opt-out">Opt-out<br>
 </b><br>
-<input id="Submit" disabled="disabled" type="submit" value="Submit"> <t><input type="reset" value="Cancel">
-</form></p>
+<input id="Submit" disabled="disabled" type="submit" value="Submit"> <input type="reset" value="Cancel">
+</form>
 <script>
 function outchanged() {
 document.getElementById("Submit").disabled=true;
@@ -177,7 +184,6 @@ function inchanged(){
 document.getElementById("Submit").disabled=false;
 }
 </script>
-</form>
 </div>
 </body>
 </html>

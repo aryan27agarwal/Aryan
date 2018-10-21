@@ -1,106 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400');
+* {
+    font-family: 'Raleway';
+}
 body {
     margin: 0;
-    background-color: #21152b;
 }
 div.background {
     background-image: url(../images/bg.gif);
     background-size: cover;
     background-attachment: fixed;
-    width: 100vw;
-    min-height: 100vh;
-    margin: 0;
     padding: 0;
-}
-img.logo {
-    text-align: center;
-    display: inline-block;
-    max-width: 343px;
-    width: 100%;
-    margin: 3em;
 }
 div.wrapper {
     background-color: rgba(0, 0, 0, 0.65);
-    width: 100vw;
-    min-height: 100vh;
-    padding: 0;
     text-align: center;
 }
-div.heading h1 {
-    margin: 0;
+
+/* navigation bar */
+.nav.navbar-nav.navbar-right li a.whitish {
+	color: #fff;
+}
+.navbar-default {
+	background-color: transparent !important;
+	border-color:transparent;
+	box-shadow:none;
+    min-width: 100%;
+}
+.nav.navbar-nav.navbar-right li.active a.whitish {
+	color: black;
+}
+
+/* foot section */
+.contact {
+    letter-spacing: 1px;
+    font-size: 1.3em;
+}
+.foot {
+    text-align: center;
+    background-color: #111111;
     color: #fff;
-    padding: 0.5em;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-weight: 300;
-    letter-spacing: 0.15em;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-}
-
-div.heading h3 {
-    margin: 0;
-    color: #fff;
-    font-weight: 100;
-    letter-spacing: 0.15em;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-}
-
-div.boxwrapper {
-    text-align: center;
-}
-button.box {
-    display: inline-block;
-    margin: 5em;
-    margin-left: 1em;
-    margin-right: 1em;
-    color: white;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-    padding: 1em;
-    border: 1px solid white;
-    letter-spacing: 2px;
-    background-color: rgba(0, 0, 0, 0);
-}
-button.blue {
-    background-color: #095988;
-    border: 1px solid #095988;
-}
-
-div.arrow {
-    text-align: center;
-    color: #fff;
-    font-size: 2em;
-    font-family: 'Raleway', sans-serif;
-}
-
-div.navbar {
-    text-align: right;
-    padding: 1%;
-}
-
-ul.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 1%;
-    display: inline;
-}
-
-ul.navbar li {
-    color: #fff;
-    text-transform: uppercase;
-    display: inline-block;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
-    padding: 1%;
-    font-weight: 100;
-    transition: all 0.3s;
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
-}
-
-ul.navbar li:hover {
-    border-bottom: 2px solid #fff;
+    padding: 5%;
 }

@@ -1,0 +1,55 @@
+/* frontpage section */
+div.full {
+    min-height: 100vh;
+}
+
+/* teams section */
+.teams {
+    text-align: center;
+    padding: 2em;
+    background-color: #dadada;
+}
+h1.head {
+    width: 100%;
+    color: #252222;
+}
+img {
+    max-width: 80px;
+}
+p.label {
+    display: block;
+    padding: 1em;
+    font-size: 1.6em;
+    color: #1d1d1d;
+}
+.imageholder {
+    display: inline-block;
+    padding: 1.5em;
+}
+.test {
+    height: 50vh;
+    background-color: #000;
+}
+
+/* quote section */
+.quotebg {
+    background-color: rgb(37, 33, 87);
+    padding: 6em;
+    text-align: center;
+    margin: 0;
+}
+h1.quote {
+    color: #fff;
+    letter-spacing: 2px;
+}
+footer {
+    font-size: 1.5em;
+    color: rgb(178, 215, 240);
+}
+
+/* social section */
+.social {
+    background-color: rgb(175, 175, 175);
+    padding: 1em;
+    text-align: center;
+}
