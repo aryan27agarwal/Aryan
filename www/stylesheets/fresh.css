@@ -4,35 +4,27 @@ body {
     background-color: #21152b;
 }
 div.background {
-    background-image: url(bg.gif);
+    background-image: url(../images/bg.gif);
     background-size: cover;
     background-attachment: fixed;
     width: 100vw;
     min-height: 100vh;
     margin: 0;
+    padding: 0;
 }
 img.logo {
     text-align: center;
     display: inline-block;
-    width: 65%;
     max-width: 343px;
+    width: 100%;
+    margin: 3em;
 }
 div.wrapper {
     background-color: rgba(0, 0, 0, 0.65);
     width: 100vw;
-    height: auto;
-}
-div.heading h2 {
-    margin: 0;
-    color: #fff;
-    padding: 3em;
-    padding-bottom: 1em;
-    padding-top: 5em;
-    font-weight: 100;
-    text-transform: lowercase;
-    letter-spacing: 0.15em;
+    min-height: 100vh;
+    padding: 0;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
 }
 div.heading h1 {
     margin: 0;
