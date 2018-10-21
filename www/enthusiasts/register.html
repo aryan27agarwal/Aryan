@@ -1,4 +1,4 @@
-<html>
+ <html>
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -34,12 +34,13 @@ div.background {
 .form{
 	max-width: 500px;
 	padding: 10px 20px;
-	background: #f4f7f8;
 	margin: 10px auto;
 	padding: 20px;
-	background: #f4f7f8;
+	background-color:  rgba(0, 0, 0, 0.5);
 	border-radius: 8px;
 	font-family: Georgia, "Times New Roman", Times, serif;
+	color: white;
+	font-size: 18px;
 }
 .form input[type="text"],
 .form input[type="email"],
@@ -89,9 +90,6 @@ div.background {
 	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
 	border-radius: 15px 15px 15px 0px;
 }
-body{
-	background-color: #AC58FA;
-}
 .form input[type="submit"],
 .form input[type="reset"]
 {
@@ -100,12 +98,12 @@ body{
 	padding: 19px 39px 18px 39px;
 	color: #FFF;
 	margin: 0 auto;
-	background: #1abc9c;
+	background: #800080;
 	font-size: 18px;
 	text-align: center;
 	font-style: normal;
-	width: 100%;
-	border: 1px solid #16a085;
+	width: 50%;
+	border: 1px solid #800080;
 	border-width: 1px 1px 3px;
 	margin-bottom: 5px;
 	border-radius: 10px 10px 10px 10px;
@@ -115,6 +113,9 @@ body{
 .form input[type="reset"]:hover
 {
 	color:black;
+	 background-color: #4B0082;
+	 border: 1px solid  #4B0082;
+
 }
 
 .form input[type="submit"]:link,
@@ -122,7 +123,12 @@ body{
 {
 	background: #109179;
 }
-
+.background.fm
+{
+	padding: 10px;
+	  background-image: url(../images/work.jpg);
+		width: 100%;
+}
 </style>
 <title>Enthusiasts </title>
 
@@ -148,25 +154,19 @@ body{
 	    </div>
 	  </nav>
 	</div>
-
+<div class="background fm">
 <div class="form">
   <form method="post" action="startup.php"  autocomplete="on">
 
  <h1>Are you a startup enthusiast? </h1>
-
 <h2 > Register with us </h2>
+<br>
 <input type="text" placeholder="Name" name="name"><br><br>
-<br>
 <input type="email" placeholder="EMAIL address" name="email"><br><br>
-<br>
 <input type="number" placeholder="Our point of contact" name="phno"><br><br>
-<br>
 <input type="text"  name="city" placeholder="City"> <br><br>
-<br>
 <input type="text" placeholder="Tell us why would you like to enroll" name="why"><br><br>
-<br>
 <input type="text" name="University"  value="GD Goenka University"><br><br>
-<br>
 <input type="text" placeholder="Anything else you would like us to know" name="Other" ><br><br>
 
 <b >  We will keep you posted with further updates and may invite you for our meetups on your provided contact details.
@@ -174,7 +174,9 @@ body{
 <input id="opt-in" onclick="inchanged()" type="radio" name="opt" value="opt-in">Opt-in<br>
 <input id="opt-out " checked type="radio" onclick="outchanged()" name="opt" value="opt-out">Opt-out<br>
 </b><br>
-<input id="Submit" disabled="disabled" type="submit" value="Submit"> <input type="reset" value="Cancel">
+<input id="Submit" disabled="disabled" type="submit" value="Submit">
+<br>
+<input type="reset" value="Cancel">
 </form>
 <script>
 function outchanged() {
@@ -184,6 +186,7 @@ function inchanged(){
 document.getElementById("Submit").disabled=false;
 }
 </script>
+</div>
 </div>
 </body>
 </html>
