@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400');
+* {
+    font-family: 'Raleway';
+}
 body {
     margin: 0;
     background-color: #21152b;
@@ -68,39 +71,4 @@ button.box {
 button.blue {
     background-color: #095988;
     border: 1px solid #095988;
-}
-
-div.arrow {
-    text-align: center;
-    color: #fff;
-    font-size: 2em;
-    font-family: 'Raleway', sans-serif;
-}
-
-div.navbar {
-    text-align: right;
-    padding: 1%;
-}
-
-ul.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 1%;
-    display: inline;
-}
-
-ul.navbar li {
-    color: #fff;
-    text-transform: uppercase;
-    display: inline-block;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
-    padding: 1%;
-    font-weight: 100;
-    transition: all 0.3s;
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
-}
-
-ul.navbar li:hover {
-    border-bottom: 2px solid #fff;
 }
