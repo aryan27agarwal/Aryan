@@ -1,3 +1,11 @@
+
+img.logo {
+    text-align: center;
+    display: inline-block;
+    max-width: 343px;
+    width: 100%;
+    margin: 3em;
+}
 div.wrapper, div.background {
     min-height: 100vh;
 }

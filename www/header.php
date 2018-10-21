@@ -30,7 +30,6 @@
     <body>
         <div class="container-fluid background">
             <div class="container-fluid wrapper">
-                <div class="container-fluid">
                     <nav class="navbar-default">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="/" class="whitish">Home</a></li>
@@ -41,6 +40,5 @@
                             <li><a href="register" class="whitish">Register</a></li>
                         </ul>
                     </nav>
-                </div>
             </div>
         </div>  
