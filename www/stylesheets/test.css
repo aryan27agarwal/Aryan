@@ -1,0 +1,26 @@
+.teams {
+    text-align: center;
+    padding: 2em;
+    background-color: #dadada;
+}
+h1.head {
+    width: 100%;
+    color: #252222;
+}
+img {
+    max-width: 80px;
+}
+p.label {
+    display: block;
+    padding: 1em;
+    font-size: 1.6em;
+    color: #1d1d1d;
+}
+.imageholder {
+    display: inline-block;
+    padding: 1.5em;
+}
+.test {
+    height: 50vh;
+    background-color: #000;
+}
