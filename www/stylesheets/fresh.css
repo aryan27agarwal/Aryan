@@ -4,6 +4,7 @@
 }
 body {
     margin: 0;
+    background-color: #1a1a1a;
 }
 div.background {
     background-image: url(../images/bg.gif);
@@ -33,11 +34,12 @@ div.wrapper {
 /* foot section */
 .contact {
     letter-spacing: 1px;
-    font-size: 1.3em;
+    font-size: 1.0em;
 }
 .foot {
     text-align: center;
-    background-color: #111111;
+    background-color: #1a1a1a;
     color: #fff;
     padding: 5%;
+    font-size: 1.3em;
 }

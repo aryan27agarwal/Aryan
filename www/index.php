@@ -6,7 +6,20 @@ include('header.php');
 
 <div class="background full">
     <div class="wrapper full">
-
+        <div class="heading">
+            <img class="logo" src="images/finallogo.png">
+            <br>
+            <h1>Entrepreneurship Cell</h1>
+            <h3>GD Goenka Technology Business Incubator</h3>
+        </div>
+        <div class="boxwrapper">
+            <button class="box blue">
+                Sign In
+            </button>
+            <button class="box">
+                Know More
+            </button>
+        </div>
     </div>
 </div>
 
@@ -46,7 +59,7 @@ include('header.php');
 </div>
 
 <div class="social">
-    𝐟 | ţ | 𝑖
+    <img src="/images/fb.png" class="social"><img src="/images/tweet.png" class="social"><img src="/images/insta.png" class="social">
 </div>
 
 <?php
