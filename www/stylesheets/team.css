@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+  }
+  .col{
+    width: 50%;
+  }
+  div.background {
+    background-image: url(../images/xyz.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    min-height: 100vh;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 350px;
+
+  }
+  h1{
+    color:white;
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 70%;
+      display: block;
+    }
+  }
+  .nav.navbar-nav.navbar-right li.active a.whitish {
+    color: black;
+  }
+  .navbar-default {
+    background-color: transparent !important;
+    border-color:transparent;
+    background-image:none;
+    box-shadow:none;
+  }
+  .nav.navbar-nav.navbar-right li a.whitish {
+    color: #fff;
+  }
+  .title{
+    text-align: center;
+  }
+
+  .container {
+    padding: 0 16px;
+    background-color: rgba(255, 225, 225, 0.5);
+    width: auto;
+  }
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .title {
+    color: white;
+  }
+ h2{
+   color: white;
+ }
+ div.background.nav {
+     background-image: url(../images/bg.gif);
+     background-size: cover;
+     background-attachment: fixed;
+     width: 100vw;
+     min-height: 6.9vh;
+ }
