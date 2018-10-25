@@ -5,9 +5,10 @@ div.full {
 img.logo {
     text-align: center;
     display: inline-block;
-    max-width: 343px;
+    max-width: 400px;
     width: 100%;
     padding: 3em;
+    margin-top: 7em;
 }
 div.heading h1 {
     margin: 0;
@@ -114,4 +115,22 @@ img.social {
 }
 img.social:hover {
     border-bottom: 2px solid rgb(255, 255, 255);
+}
+.mission {
+  background-color: #F4F6F7;
+  padding: 6em;
+  text-align: center;
+  margin: 0;
+}
+
+.p1{
+   font-size: 3em;
+}
+.p2
+{
+  font-size: 1.3em;
+  letter-spacing: 2px;
+}
+h1.dream{
+  color:  #095988;
 }

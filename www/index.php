@@ -23,6 +23,28 @@ include('header.php');
     </div>
 </div>
 
+<!--mission-->
+<div class="mission">
+  <h1 class="text-center dream">Your dream begins here.</h1><br>
+ <div class="row">
+  <div class="col-sm-6">
+      <p class="text-center">
+        <p class="p1">Mission</p><br>
+                <img src="images/mission.png"><br><br>
+        <p class="p2">Nurture entrepreneurship among students through educational programmes, knowledge generation
+      and mentoring, Build capacity of institution through training and research, Make entrepreneurially-driven initiatives by students self sustaining</p>
+  </div>
+  <div class="col-sm-6">
+        <p class="text-center">
+         <p class="p1">Vision</p><br>
+          <img class="" src="images/vision.png"><br><br>
+          <p class="p2">To be pre-eminent in fostering entrepreneurship driven initiatives, education and research directed
+     towards the development of economies and societies</p>
+  </div>
+</div>
+</div>
+
+
 <!-- Quote -->
 <div class="quotebg">
     <h1 class="quote">
