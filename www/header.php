@@ -23,7 +23,7 @@
         <?php
             $template = '<link rel="stylesheet" type="text/css" href="%s" />';
             foreach($stylesheets as $stylesheet) {
-                echo sprintf($template, $stylesheet);
+                printf($template, $stylesheet);
             }
             echo "\n";
         ?>
@@ -53,7 +53,7 @@
                                     if(strcmp($pagePath, $currentScript) === 0) {
                                         $activeClass = 'active';
                                     }
-                                    echo sprintf($template, $activeClass, $pagePath, $pageName);
+                                    printf($template, $activeClass, $pagePath, $pageName);
                                 }
                             ?>
                         </ul>
