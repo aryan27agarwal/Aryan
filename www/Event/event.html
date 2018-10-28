@@ -1,4 +1,5 @@
 <html>
+
 <head>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +24,17 @@
  	color: #fff;
  }
  body {
+   background-image:url("");
    font-family: Arial, Helvetica, sans-serif;
+ }
+ }
+ img.mySlides{
+   margin-top: 5%;
+   width: 100%;
+   align-items: center;
+
+ img.card-image{
+
  }
 
  * {
@@ -36,6 +47,9 @@
      width: 100vw;
      min-height: 6.9vh;
  }
+ div.Instagram-card{
+   background-color: #0000;
+  }
  </style>
  <style>
 #more {display: none;}
@@ -64,13 +78,6 @@
 <div class="heading">
   <h1> Event</h1>
 </div>
-<table>
-  <tr>
-    <td><h1>Past Events</h1></td>
-    <td><h1>Upcomming Events</h1></td>
-  </tr>
-<tr>
-  <td>
  <div class="Instagram-card">
    <div class="Instagram-card-header">
      <img src="Poster - Udyami Bazaar 2016.jpg"class="Instagram-card-user-image">
@@ -129,62 +136,8 @@ function myFunction() {
 }
 </script>
 
- </div>
-</td>
-<td>
-  <div class="Instagram-card">
-    <div class="Instagram-card-header">
-      <img src="Poster - Udyami Bazaar 2016.jpg"class="Instagram-card-user-image">
-      <a class="Instagram-card-user-name"> Udyami Bazaar </a>
-
-    </div>
-
- <div  class="Instagram-card-image" >
-      <img class="mySlides" src="Udyami.jpg" height=450px width=600px>
-      <img class="mySlides" src="Udyami1.jpg"height=450px width=600px>
-      <img class="mySlides" src="Udyami2.jpg" height=450px width=600px>
-      <img class="mySlides" src="Udyami3.jpg" height=450px width=600px>
-      <img class="mySlides" src="_DSC0071.jpg" height=450px width=600px>
-      <img class="mySlides" src="_DSC0072.jpg" height=450px width=600px>
-
-    </div>
-
-    <script>
-    var myIndex = 0;
-    carousel();
-    </script>
-  <div class="Instagram-card-content">
-
-    <p>
-    October is a month of celebrations. It is a month which fills our hearts and spirit with goodness and joy. What better than celebrating this month with fun, fervour and creativity?<span id="dots">...</span><span id="more"> Hence, Udyami Bazaar- an initiative of GD Goenka Technology Business Incubator (GDGTBI) encourages students to put on their entrepreneurial caps and display their business acumen and creativity in an atmosphere of fun and frolic. It’s a platform which promotes entrepreneurial attitude amongst students of GDGU. It also aims at honing their communication, presentation, marketing and managerial skills, giving them a true feel of being an entrepreneur.
-Udyami Bazaar has been running very successfully since 2013 and recently year has been brought under the purview of Goenka Technology Business Incubator (GDGTBI). GDTBI envisions being pre-eminent in fostering entrepreneurship driven initiatives, education and research directed towards the development of economies and societies. It strives to foster the entrepreneurial ecosystem at GDGU, and Udyami Bazaar is an initiative which drives this spirit in a festive manner.
-This year’s Udyami Bazaar, scheduled on 3rd November attracted more than 50 stalls including students from other universities as well. Some of the interesting stuff being offered in stalls were- games, eatables, house décor, garments, jewellery, self designed products, state ethnic products, cosmetics, stationary etc. Certificates, trophies, cash and gift hampers were awarded for most innovative marketing, most popular stall and most well managed stall. The atmosphere was quite charged up with each stall owner gearing up towards big earnings. </span></p>
-<button onclick="myFunction()" id="myBtn">Read more</button>
-<script>
-function myFunction() {
- var dots = document.getElementById("dots");
- var moreText = document.getElementById("more");
- var btnText = document.getElementById("myBtn");
-
- if (dots.style.display === "none") {
-   dots.style.display = "inline";
-   btnText.innerHTML = "Read more";
-   moreText.style.display = "none";
- } else {
-   dots.style.display = "none";
-   btnText.innerHTML = "Read less";
-   moreText.style.display = "inline";
- }
-}
-</script>
-
-</div>
-</td>
-</tr>
-</table>
-
 <br><br>
-
+</div>
 
  <div class="Instagram-card">
    <div class="Instagram-card-header">
@@ -194,7 +147,7 @@ function myFunction() {
    </div>
 
    <div class="Instagram-card-image">
-     <img  src= "Poster - IDEA 2017.jpg"height=450px width=600px>
+     <img class="card-image" src= "Poster - IDEA 2017.jpg" >
 
    </div>
 
