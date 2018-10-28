@@ -84,7 +84,7 @@ include('header.php');
 </div>
 
 <div class="social">
-    <img src="/images/fb.png" class="social"><img src="/images/tweet.png" class="social"><img src="/images/insta.png" class="social">
+    <a href="https://www.facebook.com/GDGTBI/"><img src="/images/fb.png" class="social"></a><a href="https://instagram.com/ecellgdgtbi"><img src="/images/tweet.png" class="social"></a><a href="https://twitter.com/ecellgdgtbi"><img src="/images/insta.png" class="social"></a>
 </div>
 
 <?php
