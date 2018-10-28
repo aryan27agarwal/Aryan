@@ -18,7 +18,7 @@
             <?php echo $title; ?> | Entrepreneurship Cell | GD Goenka Technology Business Incubator | GD Goenka University
         </title>
         <!-- list of style sheets -->
-        <link rel="stylesheet" type="text/css" href="/stylesheets/fresh.css" />
+        <link rel="stylesheet" type="text/css" href="/stylesheets/common.css" />
         <?php
             $template = '<link rel="stylesheet" type="text/css" href="%s" />';
             foreach($stylesheets as $stylesheet) {

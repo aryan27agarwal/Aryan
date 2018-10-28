@@ -1,87 +1,136 @@
-div.mission {
-padding: 4em;
-letter-spacing: 2px;
+/* frontpage section */
+div.full {
+    min-height: 100vh;
 }
-.vision{
-width: 50%;
+img.logo {
+    text-align: center;
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+    padding: 3em;
+    margin-top: 7em;
 }
-.teams{
-width: auto;
-margin: 0;
-background-color: #678089;
-padding: 5em;
+div.heading h1 {
+    margin: 0;
+    color: #fff;
+    padding: 0.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    text-align: center;
+    display: inline-block;
+    max-width: 80%;
+    word-wrap: break-word;
 }
-.team{
-width: 20%;
-font-size: 27px;
-color: white;
-}
-.icon{
-height: 130px;
-font-size: 80px;
-}
-.teamhead{
-text-align: center;
-font-size: 35px;
-}
-.img-fluid {
-width: 6vw;
-}
-.table>tbody>tr>td {
-border-top: none;
-}
-h3 {
-margin: 0;
-color: white;
+div.heading h3 {
+    margin: 0;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 0.15em;
+    text-align: center;
+    word-wrap: break-word;
 }
 
-/* contact section split */
-.mission{
-           background-color: #F4F6F7;
-         }
-         .social{
-           width: 33%;
-           text-align: center;
-         }
-         .fa {
-           padding: 20px;
-           font-size: 30px;
-           width: 30px;
-           text-align: center;
-           text-decoration: none;
-           margin: 5px 2px;
-           border-radius: 50%;
-         }
-         .quotebg{
-           padding: 35px;
-           background-color:#E8DAEF;
-         }
-
-.fa:hover {
-    opacity: 0.7;
+div.boxwrapper {
+    text-align: center;
 }
-.fa-facebook {
-
-  color: : #3B5998;
+button.box {
+    display: inline-block;
+    margin: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 1em;
+    border: 1px solid white;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0);
+}
+button.blue {
+    background-color: #095988;
+    border: 1px solid #095988;
 }
 
-.fa-twitter {
-  color:: #00aff0;
+/* teams section */
+.teams {
+    text-align: center;
+    padding: 2em;
+    background-color: #dadada;
 }
-.fa-instagram {
-  color: #dd4b39;
+h1.head {
+    width: 100%;
+    color: #252222;
 }
-h1.quote
-{
-  color: 	#21618C ;
+img {
+    max-width: 80px;
+}
+p.label {
+    display: block;
+    padding: 1em;
+    font-size: 1.6em;
+    color: #1d1d1d;
+}
+.imageholder {
+    display: inline-block;
+    padding: 1.5em;
+}
+.test {
+    height: 50vh;
+    background-color: #000;
+}
+
+/* quote section */
+.quotebg {
+    background-color: rgb(37, 33, 87);
+    padding: 6em;
+    text-align: center;
+    margin: 0;
+}
+h1.quote {
+    color: #fff;
+    letter-spacing: 2px;
+}
+footer {
+    font-size: 1.5em;
+    color: rgb(178, 215, 240);
+}
+
+/* social section */
+div.social {
+    background-color: rgb(175, 175, 175);
+    padding: 2em;
+    text-align: center;
+}
+
+img.social {
+    margin-left: 2em;
+    margin-right: 2em;
+    max-width: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+img.social:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.mission {
+  background-color: #F4F6F7;
+  padding: 6em;
   text-align: center;
+  margin: 0;
 }
-footer
-{
-  font-size: 20px;
-  text-align: center;
+
+.p1{
+   font-size: 3em;
 }
-.contact
+.p2
 {
-background-color: #F4F6F7;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+}
+h1.dream{
+  color:  #095988;
 }

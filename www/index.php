@@ -1,6 +1,6 @@
 <?php
 $title = 'Home';
-$stylesheets = array('/stylesheets/test.css');
+$stylesheets = array('/stylesheets/index.css');
 include('header.php');
 ?>
 
