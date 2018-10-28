@@ -2,6 +2,7 @@
     // expects that the following variables be set in prior
     // $stylesheets - an array - containing the list of stylesheet paths [excluding bootstrap]
     // $title - a string - the title for the given page
+    $currentScript = $_SERVER['SCRIPT_NAME'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -32,12 +33,29 @@
             <div class="container-fluid wrapper">
                     <nav class="navbar-default">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="/" class="whitish">Home</a></li>
-                            <li><a href="testimonials" class="whitish">Testimonials</a></li>
-                            <li><a href="events" class="whitish">Events</a></li>
-                            <li><a href="contact" class="whitish">Contact Us</a></li>
-                            <li><a href="team" class="whitish">Support Team</a></li>
-                            <li><a href="register" class="whitish">Register</a></li>
+                            <?php
+                                // will print list of li inside 
+                                // the navbar that has link to
+                                // different page. Also, auto assigns
+                                // active class li based on current script
+                                $listOfPages = array(
+                                    '/index.php' => 'Home',
+                                    '/testimonials.php' => 'Testimonials',
+                                    '/events.php' => 'Events',
+                                    '/contactus.php' => 'Contact Us',
+                                    '/supportteam.php' => 'Support Team',
+                                    '/enthusiasts.php' => 'Enthusiasts'
+                                );
+                                $template = '<li class="%s"><a href="%s" class="whitish">%s</a></li>';
+                                foreach($listOfPages as $pagePath => $pageName) {
+                                    $activeClass = 'notactive';
+                                    // check for current script
+                                    if(strcmp($pagePath, $currentScript) === 0) {
+                                        $activeClass = 'active';
+                                    }
+                                    echo sprintf($template, $activeClass, $pagePath, $pageName);
+                                }
+                            ?>
                         </ul>
                     </nav>
             </div>
