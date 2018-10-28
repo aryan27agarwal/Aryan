@@ -1,0 +1,44 @@
+body {
+    background-image: url(../images/testimonialbg.jpg);
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    display: block;
+    padding: 1em;
+    color: #ddd;
+}
+div.bg {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding-bottom: 5em;
+}
+table {
+    color: #eee;
+    margin: 0;
+    max-width: 700px;
+    display: inline-table;
+}
+td{
+    text-align: center;
+}
+.container {
+    display: inline-block;
+    background-color: rgba(20, 100, 160, 0.5);
+    margin: 1em;
+    width: 75%;
+    padding: 2em;
+    border-radius: 0.5em;
+}
+.container span {
+    font-size: 2.2em;
+    display: block;
+}
+.container {
+    text-align: center;
+    font-size: 1em;
+    word-wrap: break-word;
+}
+table {
+    table-layout: fixed;
+}
