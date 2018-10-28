@@ -10,13 +10,6 @@
 .nav.navbar-nav.navbar-right li a.whitish {
 	color: #fff;
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-    box-sizing: border-box;
-}
 div.background {
     background-image: url(../images/bg.gif);
     background-size: cover;
@@ -35,7 +28,7 @@ input[type=text], select, textarea {
 
 }
 div.background.contact {
-    background-image: url(../images/contact.jpg);
+    background-image: url(../images/entrepreneurship.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100vw;
