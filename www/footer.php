@@ -4,7 +4,7 @@
 ?>
         <div class="foot">
             <div class="contact">
-                <small>phone:</small> <a href="tel:+918291474715">+91 829 147 4715</a> | <small>email:</small> <a href="mailto:ecell@gdgoenka.ac.in">ecell@gdgoenka.ac.in</a><br>
+                <small>phone:</small> <a href="tel:+919529323218">+91 952 932 3218</a> | <small>email:</small> <a href="mailto:ecell@gdgoenka.ac.in">ecell@gdgoenka.ac.in</a><br>
             </div>
             <br>
             Copyright &copy; e-Cell, GD Goenka Technology Business Incubator, 2018.<br><a href="https://gdgoenkauniversity.com/">GD Goenka University</a>
