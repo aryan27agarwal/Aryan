@@ -55,6 +55,11 @@ button.blue {
     border: 1px solid #095988;
 }
 
+span.glyphicon {
+    display: inline-block;
+    padding: 2em;
+}
+
 /* teams section */
 .teams {
     text-align: center;
