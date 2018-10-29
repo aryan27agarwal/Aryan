@@ -47,7 +47,6 @@ include('header.php');
 </div>
 </div>
 
-
 <!-- Quote -->
 <div class="quotebg">
     <h1 class="quote">
@@ -56,6 +55,12 @@ include('header.php');
     <footer>
         -Farrah Grey
     </footer>
+</div>
+
+<!-- upcoming section -->
+<div class="upcoming">
+    <div class="title">Upcoming Event</div>
+    <div class="upcomingimage"></div>
 </div>
 
 <!-- Teams -->
