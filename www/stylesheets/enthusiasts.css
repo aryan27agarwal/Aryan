@@ -16,15 +16,6 @@ color: black;
 .nav.navbar-nav.navbar-right li a.whitish {
  color: #fff;
 }
-* {
-   box-sizing: border-box;
-}
-div.background {
-   background-image: url(../images/bg.gif);
-   background-size: cover;
-   background-attachment: fixed;
-   min-height: 6.9vh;
-}
 
 .form{
  max-width: 500px;
@@ -120,6 +111,7 @@ div.background {
  padding: 10px;
    background-image: url(../images/work.jpg);
    width: 100%;
+   background-position: center;
 }
 function outchanged() {
 document.getElementById("Submit").disabled=true;
