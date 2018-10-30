@@ -14,8 +14,6 @@ div.background {
     background-image: url(../images/bg.gif);
     background-size: cover;
     background-attachment: fixed;
-    width: 100vw;
-    min-height: 6.9vh;
 }
 /* Style inputs */
 input[type=text], select, textarea {
@@ -31,8 +29,6 @@ div.background.contact {
     background-image: url(../images/entrepreneurship.jpg);
     background-size: cover;
     background-attachment: fixed;
-    width: 100vw;
-    min-height: 100vh;
 }
 input[type=submit] {
     background-color: #800080;

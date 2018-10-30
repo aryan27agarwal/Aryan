@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $title = 'Testimonials';
 $stylesheets = array('/stylesheets/testimonials.css');
 include('header.php');
