@@ -10,11 +10,6 @@
 .nav.navbar-nav.navbar-right li a.whitish {
 	color: #fff;
 }
-div.background {
-    background-image: url(../images/bg.gif);
-    background-size: cover;
-    background-attachment: fixed;
-}
 /* Style inputs */
 input[type=text], select, textarea {
     width: 100%;
