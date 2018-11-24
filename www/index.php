@@ -57,12 +57,6 @@ include('header.php');
     </footer>
 </div>
 
-<!-- upcoming section -->
-<div class="upcoming">
-    <div class="title">Upcoming Event</div>
-    <div class="upcomingimage"></div>
-</div>
-
 <!-- Teams -->
 <div class="teams">
     <h1 class="head">Teams</h1>

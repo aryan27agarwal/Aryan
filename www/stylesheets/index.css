@@ -139,25 +139,3 @@ img.social:hover {
 h1.dream{
   color:  #095988;
 }
-
-/* upcoming section */
-div.upcoming {
-    padding: 2em;
-    text-align: center;
-    background-color: rgb(65, 8, 39);
-}
-div.title {
-    font-size: 2em;
-    color: #eee;
-    padding: 1em;
-}
-div.upcomingimage {
-    display: inline-block;
-    width: 100%;
-    height: 600px;
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('/images/posterudyamibazar18.jpg');
-}
