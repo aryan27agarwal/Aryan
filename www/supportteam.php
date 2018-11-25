@@ -56,20 +56,6 @@ include('header.php');
 
       </div>
       <br>
-      <h1>Marketing</h1>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="container">
-            <h2>Bhavya Tandon</h2>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="container">
-            <h2>Komal Kumari</h2>
-          </div>
-        </div>
-      </div>
-      <br>
       <h1>Media</h1>
       <div class="row">
         <div class="col-sm-12">
