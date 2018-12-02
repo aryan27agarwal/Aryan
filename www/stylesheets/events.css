@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+/* from style block */
+
+.nav.navbar-nav.navbar-right li.active a.whitish {
+color: black;
+}
+.navbar-default {
+background-color: transparent !important;
+border-color:transparent;
+background-image:none;
+box-shadow:none;
+}
+.nav.navbar-nav.navbar-right li a.whitish {
+color: #fff;
+}
+body {
+background-image:url("");
+font-family: Arial, Helvetica, sans-serif;
+}
+img.mySlides{
+margin-top: 5%;
+width: 100%;
+align-items: center;
+width: 700px;
+height: inherit;
+}
+* {
+box-sizing: border-box;
+}
+div.background {
+background-image: url(bg.gif);
+background-size: cover;
+background-attachment: fixed;
+width: 100vw;
+min-height: 6.9vh;
+}
+div.Instagram-card{
+background-color: #0000;
+}
+#more {display: none;}
+#more1 {display: none;}
+
+/* from styling.css */
+
+.heading{
+	text-align: center;
+}
+a{
+  text-decoration: none;
+}
+
+.Instagram-card{
+	background: #ffffff;
+	border: 1px solid #f2f2f2;
+	border-radius: 3px;
+	width: 100%;
+	max-width: 700px;
+	margin: auto;
+
+}
+
+.Instagram-card-header{
+	padding: 20px;
+	height: 40px;
+}
+
+.Instagram-card-user-image{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+}
+
+
+.Instagram-card-user-name{
+	margin-left:20px;
+	font-weight:bold;
+  color: #262626;
+}
+
+.Instagram-card-content{
+  padding: 20px;
+	font-style: normal;
+	font-family: monospace;
+	font-size: 18;
+
+}
+
+
+.Instagram-card-content-user{
+  font-weight: bold;
+  color: #262626;
+}

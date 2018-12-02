@@ -1,5 +1,5 @@
 <?php
-$title = 'Home';
+$title = 'Privacy Policy';
 $stylesheets = array('/stylesheets/privacypolicy.css');
 include('header.php');
 ?>
