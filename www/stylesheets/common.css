@@ -35,10 +35,11 @@ div.wrapper {
 .contact {
     letter-spacing: 1px;
     font-size: 1.0em;
+    padding: 0.8%;
 }
 .foot {
     text-align: center;
-    background-color: #1a1a1a;
+    background-color: #110e0e;
     color: #fff;
     padding: 5%;
     font-size: 1.3em;
