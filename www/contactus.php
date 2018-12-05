@@ -12,7 +12,7 @@ include('header.php');
   <div class="row">
     <div class="column">
       <div id="map">
-        <iframe src="https://www.google.com/maps/embed/v1/place?q=GD%20Goenka%20University%2C%20IN&amp;zoom=17%20&amp;key=AIzaSyB7FJv2cFSEAWP_wT0UD2R1x4oxJCNX60o" allowfullscreen="true" width="100%" height="500px" frameborder="0"></iframe>
+        <iframe src="https://www.google.com/maps/embed/v1/place?q=GD%20Goenka%20University%2C%20IN&amp;zoom=17%20&amp;key=AIzaSyCMUIu_CYQvx-dKp-XjusGAZI3Nv5VLHfM" allowfullscreen="true" width="100%" height="500px" frameborder="0"></iframe>
       </div>
     </div>
     <div class="column">
