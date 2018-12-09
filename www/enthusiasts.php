@@ -1,5 +1,5 @@
 <?php
-$title = 'Testimonials';
+$title = 'Entrepreneurship Enthusiasts';
 $stylesheets = array('/stylesheets/enthusiasts.css');
 include('header.php');
 ?>
