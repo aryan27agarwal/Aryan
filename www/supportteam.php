@@ -81,14 +81,12 @@ include('header.php');
       <br>
       <div class="row">
         <div class="col-sm-6">
-            <div class="card">
-              <img src="images/mudit.png" alt="John" style="width:20%">
+            <div class="container">
             <h2>Mudit Khandelwal</h2>
           </div>
       </div>
         <div class="col-sm-6">
-            <div class="card">
-          <img src="images/aryan.png" alt="John" style="width:20%">
+            <div class="container">
             <h2>Aryan Agarwal</h2>
           </div>
       </div>
