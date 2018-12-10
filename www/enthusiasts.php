@@ -12,7 +12,7 @@ include('header.php');
 <br>
 <input type="text" placeholder="Name" name="name"><br><br>
 <input type="email" placeholder="Mail ID" name="email"><br><br>
-<input type="number" placeholder="Our point of contact" name="phno"><br><br>
+<input type="tel" placeholder="Our point of contact" name="phno"><br><br>
 <input type="text"  name="city" placeholder="City"> <br><br>
 <input type="text" placeholder="Tell us why would you like to enroll" name="why"><br><br>
 <input type="text" name="University"  value="GD Goenka University"><br><br>
