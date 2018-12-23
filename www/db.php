@@ -5,7 +5,7 @@ $host=$url["host"];
 $username=$url["user"];
 $password=$url["pass"];
 $port = $url["port"];
-$dbname=substr($url["PATH"],1);
+$dbname=substr($url["path"],1);
 
 $conn=mysqli_connect($host,$username,$password,$dbname, $port) or die("Database connection fail");
 ?>

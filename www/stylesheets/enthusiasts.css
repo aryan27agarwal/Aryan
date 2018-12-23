@@ -1,4 +1,4 @@
-<style type="text/css">
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400');
 
 *{
@@ -113,10 +113,4 @@ color: black;
    width: 100%;
    background-position: center;
 }
-function outchanged() {
-document.getElementById("Submit").disabled=true;
-}
-function inchanged(){
-document.getElementById("Submit").disabled=false;
-}
-</style>
+

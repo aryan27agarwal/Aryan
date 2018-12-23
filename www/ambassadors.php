@@ -1,4 +1,5 @@
 <?php
+include('db.php');
 $title = 'Campus Ambassadors';
 $stylesheets = array('/stylesheets/ambassador.css');
 include('header.php');
@@ -7,7 +8,7 @@ include('header.php');
 <div class="form">
  <form method="post" action="startup.php"  autocomplete="on">
 
-<h1>Want be your Campus Ambassador? </h1>
+<h1>Want to be your Campus Ambassador? </h1>
 <h2 > Sign up with your details </h2>
 <br>
 <input type="text" placeholder="Name" name="name"><br><br>
@@ -21,8 +22,8 @@ include('header.php');
  </select><br><br>
 <input type="text"  name="city" placeholder="City"> <br><br>
 <input type="text" placeholder="Tell us why would you like to enroll" name="why"><br><br>
-<input type="text" name="University"  placeholder="University/College"><br><br>
-<input type="text" placeholder="Anything else you would like us to know" name="Other" ><br><br>
+<input type="text" name="college"  placeholder="University/College"><br><br>
+<input type="text" placeholder="Anything else you would like us to know" name="other" ><br><br>
 
 <b >  We will keep you posted with further updates and may invite you for our meetups on your provided contact details.
 <br><br>
