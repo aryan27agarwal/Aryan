@@ -1,5 +1,4 @@
 <?php
-include('db.php');
 $title = 'Campus Ambassadors';
 $stylesheets = array('/stylesheets/ambassador.css');
 include('header.php');
@@ -27,8 +26,8 @@ include('header.php');
 
 <b >  We will keep you posted with further updates and may invite you for our meetups on your provided contact details.
 <br><br>
-<input id="opt-in" onclick="inchanged()" type="radio" name="opt" value="opt-in">Opt-in<br>
-<input id="opt-out " checked type="radio" onclick="outchanged()" name="opt" value="opt-out">Opt-out<br>
+<input id="opt-in" onclick="inchanged()" type="radio" name="opt" value="opt-in" checked="unchecked">Opt-in<br>
+<input id="opt-out " checked type="radio" onclick="outchanged()" name="opt" value="opt-out" checked="checked">Opt-out<br>
 </b><br>
 <input id="Submit" disabled="disabled" type="submit" value="Sign Up">
 <br>
