@@ -16,14 +16,14 @@ include('header.php');
       </div>
     </div>
     <div class="column">
-      <form action="/action_page.php">
+      <form method="post" action="cont.php"  autocomplete="on">
         <label for="fname"></label>
-        <input type="text" id="fname" name="firstname" placeholder="First Name">
+        <input type="text" id="fname" name="fname" placeholder="First Name">
         <label for="lname"></label>
-        <input type="text" id="lname" name="lastname" placeholder="Last Name">
+        <input type="text" id="lname" name="lname" placeholder="Last Name">
         <label for="mail"></label>
-        <input type="text" id="mail" name="mail" placeholder="Email Address">
-        <textarea id="subject" name="subject" placeholder="Query" style="height:170px"></textarea>
+        <input type="text" id="mail" name="email" placeholder="Email Address">
+        <textarea id="subject" name="query" placeholder="Query" style="height:170px"></textarea>
         <input type="submit" value="Submit">
       </form>
     </div>

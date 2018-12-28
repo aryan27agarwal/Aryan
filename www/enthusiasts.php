@@ -5,7 +5,7 @@ include('header.php');
 ?>
 <div class="background fm">
 <div class="form">
- <form method="post" action="startup.php"  autocomplete="on">
+ <form method="post" action="enthu.php"  autocomplete="on">
 
 <h1>Are you a startup enthusiast? </h1>
 <h2 > Register with us </h2>
@@ -15,8 +15,8 @@ include('header.php');
 <input type="tel" placeholder="Our point of contact" name="phno"><br><br>
 <input type="text"  name="city" placeholder="City"> <br><br>
 <input type="text" placeholder="Tell us why would you like to enroll" name="why"><br><br>
-<input type="text" name="University"  value="GD Goenka University"><br><br>
-<input type="text" placeholder="Anything else you would like us to know" name="Other" ><br><br>
+<input type="text" name="college"  value="GD Goenka University"><br><br>
+<input type="text" placeholder="Anything else you would like us to know" name="other" ><br><br>
 
 <b >  We will keep you posted with further updates and may invite you for our meetups on your provided contact details.
 <br><br>
