@@ -69,11 +69,6 @@ include('header.php');
       <div class="row">
         <div class="col-sm-6">
           <div class="container">
-            <h2>Swarup Ghosh</h2>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="container">
             <h2>Smahi Shah</h2>
           </div>
         </div>
