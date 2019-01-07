@@ -6,7 +6,7 @@
             <div class="contact">
                 <small>phone:</small> <a href="tel:+919529323218">+91 952 932 3218</a> | <small>email:</small> <a href="mailto:gdgtbi@gdgu.org">gdgtbi@gdgu.org</a> | <small>read:</small> <a href="/privacypolicy.php">privacy policy</a><br>
             </div>
-            Copyright &copy; e-Cell, GD Goenka Technology Business Incubator, 2018.<br><a href="https://gdgoenkauniversity.com/">GD Goenka University</a>
+            Copyright &copy; e-Cell, GD Goenka Technology Business Incubator, 2018-19.<br><a href="http://gdgoenkauniversity.com/">GD Goenka University</a>
         </div>
     </body>
     <!-- list of script -->
