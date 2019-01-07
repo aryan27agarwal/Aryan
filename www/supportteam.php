@@ -87,7 +87,7 @@ include('header.php');
       </div>
     </div>
       <br>
-      <h1>Sponsers</h1>
+      <h1>Sponsors</h1>
       <div class="row">
         <div class="col-sm-12">
           <div class="container">
@@ -95,6 +95,7 @@ include('header.php');
           </div>
         </div>
       </div>
+      <br>
   </div>
 <?php
 $scripts = array();
