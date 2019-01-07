@@ -1,5 +1,5 @@
 <?php
-define('CLOUD_FUNCTION_URL', 'https://asia-northeast1-code-crafts-1477836554331.cloudfunctions.net/ecellsendemail');
+define('CLOUD_FUNCTION_URL', 'http://asia-northeast1-code-crafts-1477836554331.cloudfunctions.net/ecellsendemail');
 
 class Email {
     public static function sendEmail($to, $subject, $body) {
