@@ -5,7 +5,7 @@ include('header.php');
 ?>
 <div class="background fm">
 <div class="form">
- <form method="post" action="enthu.php"  autocomplete="on">
+ <form method="post" action="enthusiasts_submit.php"  autocomplete="on">
 
 <h1>Are you a startup enthusiast? </h1>
 <h2 > Register with us </h2>

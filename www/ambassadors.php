@@ -5,7 +5,7 @@ include('header.php');
 ?>
 <div class="background fm">
 <div class="form">
- <form method="post" action="startup.php"  autocomplete="on">
+ <form method="post" action="ambassadors_submit.php"  autocomplete="on">
 
 <h1>Want to be your Campus Ambassador? </h1>
 <h2 > Sign up with your details </h2>

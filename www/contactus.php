@@ -16,7 +16,7 @@ include('header.php');
       </div>
     </div>
     <div class="column">
-      <form method="post" action="cont.php"  autocomplete="on">
+      <form method="post" action="contactus_submit.php"  autocomplete="on">
         <label for="fname"></label>
         <input type="text" id="fname" name="fname" placeholder="First Name">
         <label for="lname"></label>
