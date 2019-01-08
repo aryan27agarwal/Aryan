@@ -1,20 +1,20 @@
 <?php
 define('AMBASSADORS_SUBJECT', "You've been successfuly registered!");
-define('AMBASSADORS_MESSAGE', "Thank you %s for contacting us.
-We have received your query and are looking forward to contacting you back as soon as possible.
-\nYou are receiving this message because you tried to contact us through the E-Cell GD Goenka University website.");
+define('AMBASSADORS_MESSAGE', "Thank you %s for registering with GD Goenka University E-Cell.
+We have successfully received your Campus Ambassador application. You would hear back from us post review of the application.
+\nThe current status of your application is: SUBMITTED.\n \nYou are receiving this message because you signed up at E-Cell GD Goenka University.");
 
 class Ambassadors {
     private $data;
-    public function __construct($name, $email, $contact, $gender, $city, $college, $why, $other) {
-        $this->$data = compact('name', 'email', 'contact', 'gender', 'city', 'college', 'why', 'other');
+    public function __construct($name, $email, $phone, $gender, $city, $college, $why, $other) {
+        $this->$data = compact('name', 'email', 'phone', 'gender', 'city', 'college', 'why', 'other');
     }
     public function email() {
         $message = sprintf(AMBASSADORS_MESSAGE, $this->$data['name']);
         return Email::sendEmail($this->$data['email'], AMBASSADORS_SUBJECT, $message);
     }
     public function store() {
-        $sql = 'INSERT INTO ambassadors (name, email, contact, gender, city, why, college, anything) VALUES (:name, :email, :contact, :gender, :city, :why, :college, :other)';
+        $sql = 'INSERT INTO ambassadors (name, email, phone, gender, city, why, college, anything) VALUES (:name, :email, :phone, :gender, :city, :why, :college, :other)';
         $db = new Database;
         $db->query($sql, $this->$data);
     }
