@@ -11,18 +11,18 @@ include('header.php');
 <h2 > Sign up with your details </h2>
 <br>
 <input type="text" placeholder="Name" name="name"><br><br>
-<input type="email" placeholder="Mail ID" name="email"><br><br>
-<input type="tel" placeholder="Our point of contact" name="phno"><br><br>
+<input type="email" placeholder="Email Address" name="email"><br><br>
+<input type="tel" placeholder="Phone Number" name="phno"><br><br>
 <select placeholder="Gender" name="gender">
-  <option >Gender</option>
+  <option>-- Select Gender --</option>
   <option value="male">Male</option>
    <option value="female">Female</option>
    <option value="others">Other</option>
  </select><br><br>
 <input type="text"  name="city" placeholder="City"> <br><br>
-<input type="text" placeholder="Tell us why would you like to enroll" name="why"><br><br>
+<input type="text" placeholder="Tell us why would you like to enroll?" name="why"><br><br>
 <input type="text" name="college"  placeholder="University/College"><br><br>
-<input type="text" placeholder="Anything else you would like us to know" name="other" ><br><br>
+<input type="text" placeholder="Anything else you would like us to know?" name="other" ><br><br>
 
 <b >  We will keep you posted with further updates and may invite you for our meetups on your provided contact details.
 <br><br>

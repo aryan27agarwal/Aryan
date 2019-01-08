@@ -10,12 +10,12 @@ class ContactUs {
         $this->$data = compact('fname', 'lname', 'email', 'query');
     }
     public function email() {
-        $message = sprintf(CONTACTUS_MESSAGE, $data['fname']);
-        return Email::sendEmail($data['email'], CONTACTUS_SUBJECT, $message);
+        $message = sprintf(CONTACTUS_MESSAGE, $this->$data['fname']);
+        return Email::sendEmail($this->$data['email'], CONTACTUS_SUBJECT, $message);
     }
     public function store() {
         $sql = 'INSERT INTO contactus (fname, lname, email, query) VALUES (:fname, :lname, :email, :query)';
         $db = new Database;
-        $db->query($sql, $data);
+        $db->query($sql, $this->$data);
     }
 }

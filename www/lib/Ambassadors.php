@@ -10,12 +10,12 @@ class Ambassadors {
         $this->$data = compact('name', 'email', 'contact', 'gender', 'city', 'college', 'why', 'other');
     }
     public function email() {
-        $message = sprintf(AMBASSADORS_MESSAGE, $data['name']);
-        return Email::sendEmail($data['email'], AMBASSADORS_SUBJECT, $message);
+        $message = sprintf(AMBASSADORS_MESSAGE, $this->$data['name']);
+        return Email::sendEmail($this->$data['email'], AMBASSADORS_SUBJECT, $message);
     }
     public function store() {
         $sql = 'INSERT INTO ambassadors (name, email, contact, gender, city, why, college, anything) VALUES (:name, :email, :contact, :gender, :city, :why, :college, :other)';
         $db = new Database;
-        $db->query($sql, $data);
+        $db->query($sql, $this->$data);
     }
 }

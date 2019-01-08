@@ -1,7 +1,10 @@
-<?php include('header.php'); ?>
-<html>
-<body>
-Thank you<?php echo $_POST["fname"]; ?><br>
+<?php
+$title = 'Contact Us Submission';
+$stylesheets = array('/stylesheets/contact.css');
+include('header.php');
+?>
+
+Thank you <?php echo $_POST["fname"]; ?><br>
 you will be contacted on <?php echo $_POST["email"]; ?>
 
 <?php
@@ -13,8 +16,6 @@ $submission->store();
 
 ?>
 
-</body>
-</html>
 <?php
 $scripts = array();
 include('footer.php');
