@@ -14,7 +14,7 @@ class Enthusiasts {
         return Email::sendEmail($this->$data['email'], ENTHUSIASTS_SUBJECT, $message);
     }
     public function store() {
-        $sql = 'INSERT INTO ambassadors (name, email, contact, city, why, college, anything) VALUES (:name, :email, :contact, :city, :why, :college, :other)';
+        $sql = 'INSERT INTO enthusiasts (name, email, contact, city, why, college, anything) VALUES (:name, :email, :contact, :city, :why, :college, :other)';
         $db = new Database;
         $db->query($sql, $this->$data);
     }
