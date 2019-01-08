@@ -1,11 +1,10 @@
 <?php
-define('CLOUD_FUNCTION_URL', 'http://asia-northeast1-code-crafts-1477836554331.cloudfunctions.net/ecellsendemail');
+define('EMAIL_CLOUD_FUNCTION_URL', getenv('EMAIL_CLOUD_FUNCTION_URL'));
 
 class Email {
     public static function sendEmail($to, $subject, $body) {
         
         $content = compact('to', 'subject', 'body');
-        $url = CLOUD_FUNCTION_URL;
     
         $options = array(
             'http' => array(
@@ -17,7 +16,7 @@ class Email {
     
         $context = stream_context_create($options);
     
-        $result = file_get_contents($url, false, $context);
+        $result = file_get_contents(EMAIL_CLOUD_FUNCTION_URL, false, $context);
         $result = json_decode($result, true);
     
         return $result['success'];
