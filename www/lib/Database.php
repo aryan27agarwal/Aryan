@@ -9,7 +9,7 @@ define('DB_PASSWD', $db_url['pass']);
 define('DB_PORT', $db_url['port']);
 define('DB_NAME', substr($db_url['path'], 1));
 
-define('POSTGRES_DSN', sprintf('postgres:host=%s;dbname=%s;port=%s;charset=utf8', DB_HOST, DB_NAME, DB_PORT));
+define('POSTGRES_DSN', sprintf('pgsql:host=%s;dbname=%s;port=%s;charset=utf8', DB_HOST, DB_NAME, DB_PORT));
 
 class Database {
     private $pdo;
