@@ -1,6 +1,5 @@
 {
-  "name": "ECell-GDGTBI",
-  "description": "Entrepreneurship Cell | GD Goenka Technology Business Incubation Center",
-  "repository": "https://github.com/aryan27agarwal/ecellgdgtbi",
-  "addons": []
+  "name": "ecellgdgu",
+  "description": "GD Goenka University E-Cell",
+  "repository": "https://github.com/gdgu/ecellgdgu"
 }
