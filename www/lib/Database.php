@@ -15,7 +15,7 @@ class Database {
     private $pdo;
 
     public function __construct() {
-        $pdo = new PDO(POSTGRES_DSN, DB_USER, DB_PASSWD, [
+        $this->$pdo = new PDO(POSTGRES_DSN, DB_USER, DB_PASSWD, [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
             PDO::ATTR_PERSISTENT => true
@@ -23,7 +23,7 @@ class Database {
     }
 
     public function query($query, $data) {
-        $stmt = $pdo->prepare($query)->execute($data);
+        $stmt = $this->$pdo->prepare($query)->execute($data);
         // the returned value can be traversed like fetch()
         return $stmt;
     }
