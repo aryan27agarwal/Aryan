@@ -4,8 +4,11 @@ $stylesheets = array('/stylesheets/contact.css');
 include('header.php');
 ?>
 
-Thank you <?php echo $_POST["fname"]; ?><br>
-you will be contacted on <?php echo $_POST["email"]; ?>
+<div class="acknowledgement">
+Thank you <?php echo $_POST["fname"]; ?>!<br>
+You will be contacted at <?php echo $_POST["email"]; ?>.<br><br>
+<small><a href="/">&lt;&lt; go home</a></small>
+</div>
 
 <?php
 
