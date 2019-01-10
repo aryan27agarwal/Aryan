@@ -4,6 +4,8 @@ define('CONTACTUS_MESSAGE', "Thank you %s for contacting us.
 We have received your query and are looking forward to contacting you back as soon as possible.
 \nYou are receiving this message because you tried to contact us through the E-Cell GD Goenka University website.");
 
+define('AMBASSADORS_TG_MESSAGE', "Somebody is willing to contact. \n*Details are:*\n```yaml\n%s\n```");
+
 class ContactUs {
     private $data;
     public function __construct($fname, $lname, $email, $query) {
@@ -17,5 +19,8 @@ class ContactUs {
         $sql = 'INSERT INTO contactus (fname, lname, email, query) VALUES (:fname, :lname, :email, :query)';
         $db = new Database;
         $db->query($sql, $this->$data);
+    }
+    public function notify() {
+
     }
 }

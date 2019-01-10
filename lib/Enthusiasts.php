@@ -4,6 +4,8 @@ define('ENTHUSIASTS_MESSAGE', "Thank you %s for registering as an Entrepreneursh
 We have successfully received your details. You would occasionally hear from us about entrepreneurship related updates. It is expected that you receive entrepreneurship related updates occasionally at this email address.
 \nYou are receiving this message because you signed up for the same at E-Cell GD Goenka University website.");
 
+define('ENTHUSIASTS_TG_MESSAGE', "You have a new update. \n*New Entrpreneurship Enthusiast:*\n```yaml\n%s\n```");
+
 class Enthusiasts {
     private $data;
     public function __construct($name, $email, $phone, $city, $college, $why, $other) {
@@ -17,5 +19,9 @@ class Enthusiasts {
         $sql = 'INSERT INTO enthusiasts (name, email, phone, city, why, college, anything) VALUES (:name, :email, :phone, :city, :why, :college, :other)';
         $db = new Database;
         $db->query($sql, $this->$data);
+    }
+    public function notify() {
+        $params = json_encode($this->$data);
+        return TeamUpdate::sendUpdate(sprintf(ENTHUSIASTS_TG_MESSAGE, $params));
     }
 }

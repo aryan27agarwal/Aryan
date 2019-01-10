@@ -4,6 +4,8 @@ define('AMBASSADORS_MESSAGE', "Thank you %s for registering with GD Goenka Unive
 We have successfully received your Campus Ambassador application. You would hear back from us post review of the application.
 \nThe current status of your application is: SUBMITTED.\n \nYou are receiving this message because you signed up at E-Cell GD Goenka University.");
 
+define('AMBASSADORS_TG_MESSAGE', "You have a new update. \n*New Campus Ambassador Application:*\n```yaml\n%s\n```");
+
 class Ambassadors {
     private $data;
     public function __construct($name, $email, $phone, $gender, $city, $college, $why, $other) {
@@ -17,5 +19,8 @@ class Ambassadors {
         $sql = 'INSERT INTO ambassadors (name, email, phone, gender, city, why, college, anything) VALUES (:name, :email, :phone, :gender, :city, :why, :college, :other)';
         $db = new Database;
         $db->query($sql, $this->$data);
+    }
+    public function notify() {
+
     }
 }
