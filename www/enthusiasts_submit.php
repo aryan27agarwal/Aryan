@@ -16,6 +16,8 @@ require('../lib/autoload.php');
 $submission = new Enthusiasts($_POST["name"], $_POST["email"], intval($_POST["phno"]), $_POST["city"], $_POST["college"], $_POST["why"], $_POST["other"]);
 $submission->email();
 $submission->store();
+$submission->notify();
+
 
 ?>
 

@@ -1,4 +1,5 @@
 <?php
+// Telegram Bot
 define('BOT_TOKEN', getenv('BOT_TOKEN'));
 define('CHAT_ID', getenv('CHAT_ID'));
 
