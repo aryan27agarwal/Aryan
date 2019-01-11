@@ -12,7 +12,7 @@ You will be contacted at <?php echo $_POST["email"]; ?>.<br><br>
 
 <?php
 
-require('../vendor/autoload.php');
+require_once('../vendor/autoload.php');
 $submission = new ContactUs($_POST['fname'], $_POST['lname'], $_POST['email'], $_POST['query']);
 $submission->email();
 $submission->store();

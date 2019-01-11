@@ -6,7 +6,7 @@ We have received your query and are looking forward to contacting you back as so
 
 define('CONTACTUS_TG_MESSAGE', "Somebody is willing to contact.
 *Details are:*
-```json\n%s\n```");
+```yaml\n%s\n```");
 
 class ContactUs {
     private $data;
@@ -23,7 +23,7 @@ class ContactUs {
         $db->query($sql, $this->$data);
     }
     public function notify() {
-        $part = json_encode($this->$data, JSON_PRETTY_PRINT);
+        $part = \Symfony\Component\Yaml\Yaml::dump($this->$data);
         return TeamUpdate::sendUpdate(sprintf(CONTACTUS_TG_MESSAGE, $part));
     }
 }

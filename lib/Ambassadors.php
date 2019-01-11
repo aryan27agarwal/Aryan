@@ -6,7 +6,7 @@ We have successfully received your Campus Ambassador application. You would hear
 
 define('AMBASSADORS_TG_MESSAGE', "You have a new update.
 *New Campus Ambassador Application:*
-```json\n%s\n```");
+```yaml\n%s\n```");
 
 class Ambassadors {
     private $data;
@@ -23,7 +23,7 @@ class Ambassadors {
         $db->query($sql, $this->$data);
     }
     public function notify() {
-        $part = json_encode($this->$data, JSON_PRETTY_PRINT);
+        $part = \Symfony\Component\Yaml\Yaml::dump($this->$data);
         return TeamUpdate::sendUpdate(sprintf(AMBASSADORS_TG_MESSAGE, $part));
     }
 }

@@ -6,7 +6,7 @@ We have successfully received your details. You would occasionally hear from us 
 
 define('ENTHUSIASTS_TG_MESSAGE', "You have a new update.
 *New Entrepreneurship Enthusiast:*
-```json\n%s\n```");
+```yaml\n%s\n```");
 
 class Enthusiasts {
     private $data;
@@ -23,7 +23,7 @@ class Enthusiasts {
         $db->query($sql, $this->$data);
     }
     public function notify() {
-        $part = json_encode($this->$data, JSON_PRETTY_PRINT);
+        $part = \Symfony\Component\Yaml\Yaml::dump($this->$data);
         return TeamUpdate::sendUpdate(sprintf(ENTHUSIASTS_TG_MESSAGE, $part));
     }
 }
