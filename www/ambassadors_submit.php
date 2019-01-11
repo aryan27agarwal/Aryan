@@ -12,7 +12,7 @@ You'll receive a confirmation at <?php echo $_POST["email"]; ?>.<br><br>
 
 <?php
 
-require('../lib/autoload.php');
+require('../vendor/autoload.php');
 $submission = new Ambassadors($_POST["name"], $_POST["email"], intval($_POST["phno"]), $_POST["gender"], $_POST["city"], $_POST["college"], $_POST["why"], $_POST["other"]);
 $submission->email();
 $submission->store();

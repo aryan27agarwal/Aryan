@@ -1,5 +1,10 @@
 {
+  "name": "ecellgdgu",
+  "description": "Website for GD Goenka University E-Cell.",
   "require" : {
     "php": "^7.1"
+  },
+  "autoload": {
+    "classmap": ["lib"]
   }
 }
