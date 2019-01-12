@@ -1,7 +1,7 @@
 <?php
 define('ENTHUSIASTS_SUBJECT', "You've been successfuly registered!");
 define('ENTHUSIASTS_MESSAGE', "Thank you %s for registering as an Entrepreneurship Enthusiast.
-We have successfully received your details. You would occasionally hear from us about entrepreneurship related updates. It is expected that you receive entrepreneurship related updates occasionally at this email address.
+We have successfully received your details. You would occasionally hear from us about entrepreneurship related updates.
 \nYou are receiving this message because you signed up for the same at E-Cell GD Goenka University website.");
 
 define('ENTHUSIASTS_TG_MESSAGE', "You have a new update.

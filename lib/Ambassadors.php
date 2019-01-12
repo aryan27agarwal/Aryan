@@ -2,7 +2,8 @@
 define('AMBASSADORS_SUBJECT', "You've been successfuly registered!");
 define('AMBASSADORS_MESSAGE', "Thank you %s for registering with GD Goenka University E-Cell.
 We have successfully received your Campus Ambassador application. You would hear back from us post review of the application.
-\nThe current status of your application is: SUBMITTED.\n \nYou are receiving this message because you signed up at E-Cell GD Goenka University.");
+\nThe current status of your application is: SUBMITTED.
+\nYou are receiving this message because you signed up at E-Cell GD Goenka University.");
 
 define('AMBASSADORS_TG_MESSAGE', "You have a new update.
 *New Campus Ambassador Application:*
