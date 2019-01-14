@@ -68,12 +68,18 @@ include('header.php');
   <br>
   <h1>Web Development <small><code> <a href="https://github.com/gdgu/ecellgdgu/contributors">:. info .:</a> </code></small></h1>
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-6">
       <div class="container">
-        <h2>Aryan Agarwal </h2>
+        <h2>Aryan Agarwal</h2>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="container">
+        <h2>Amit Dagar</h2>
       </div>
     </div>
   </div>
+
   <br>
   <h1>Sponsors</h1>
   <div class="row">
