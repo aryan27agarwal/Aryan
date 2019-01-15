@@ -3,7 +3,9 @@
   "description": "Website for GD Goenka University E-Cell.",
   "require" : {
     "php": "^7.1",
-    "symfony/yaml": "^4.2",
+    "symfony/yaml": "^4.2"
+  },
+  "require-dev": {
     "heroku/heroku-buildpack-php": "^148.0"
   },
   "autoload": {
