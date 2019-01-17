@@ -1,94 +1,46 @@
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
-
-/* from style block */
-
-.nav.navbar-nav.navbar-right li.active a.whitish {
-color: black;
-}
-.navbar-default {
-background-color: transparent !important;
-border-color:transparent;
-background-image:none;
-box-shadow:none;
-}
-.nav.navbar-nav.navbar-right li a.whitish {
-color: #fff;
-}
-body {
-background-image:url("");
-font-family: Arial, Helvetica, sans-serif;
-}
-img.mySlides{
-margin-top: 5%;
-width: 100%;
-align-items: center;
-width: 700px;
-height: inherit;
-}
-* {
-box-sizing: border-box;
-}
-div.background {
-background-image: url(bg.gif);
-background-size: cover;
-background-attachment: fixed;
-width: 100vw;
-min-height: 6.9vh;
-}
-div.Instagram-card{
-background-color: #0000;
-}
-#more {display: none;}
-#more1 {display: none;}
-
-/* from styling.css */
-
+#more {
+        display: none;
+      }
+      #more1 {
+              display: none;
+            }
 .heading{
-	text-align: center;
+        outline: 1px dashed #FEFEFE;
+        outline-offset: -5px;
+        font-size: 35px;
+        line-height: 90px;
+        font-family: Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        background-color: #675E67;
+        height: 80px;
+        width: ;
+        margin: 10px auto;
+       }
+
+  body{
+        background: url(images/events/eventbackground.png);
+         font-family: Helvetica, sans-serif;
+         text-color:white;
+      }
+td{
+   color:white;
 }
-a{
-  text-decoration: none;
-}
+table {
+        border-collapse: collapse;
+        border: 1px solid white;
+        padding: 15px;
+        text-align: center;
+      }
 
-.Instagram-card{
-	background: #ffffff;
-	border: 1px solid #f2f2f2;
-	border-radius: 3px;
-	width: 100%;
-	max-width: 700px;
-	margin: auto;
-
-}
-
-.Instagram-card-header{
-	padding: 20px;
-	height: 40px;
-}
-
-.Instagram-card-user-image{
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
-	vertical-align: middle;
-}
-
-
-.Instagram-card-user-name{
-	margin-left:20px;
-	font-weight:bold;
-  color: #262626;
-}
-
-.Instagram-card-content{
-  padding: 20px;
-	font-style: normal;
-	font-family: monospace;
-	font-size: 18;
+.table-heading{
+              text-align: center;
+              font-weight: bold;
+color: white;
+              margin: 2px auto;
+              font-size: 20px;
 
 }
-
-
-.Instagram-card-content-user{
-  font-weight: bold;
-  color: #262626;
+button{
+  color:black;
 }
