@@ -510,7 +510,7 @@
     </form>
   </div>
 </div>
-<!-- Portfolio--><a id="portfolio" href="http://pkshopy.com/farooqshad/" title="View my portfolio!"><i class="fa fa-link"></i></a>
+<a id="portfolio" href="http://pkshopy.com/farooqshad/" title="View my portfolio!"><i class="fa fa-link"></i></a>
     </div>
 </div>
 <script type="text/javascript">
