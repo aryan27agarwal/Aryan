@@ -56,6 +56,7 @@
     </div>
     <script src="https://freecoder.in/login/vendor/jquery/jquery-3.2.1.min.js" type="976b4401d31ea974d7510ba4-text/javascript"></script>
     <script src="https://freecoder.in/login/vendor/animsition/js/animsition.min.js" type="976b4401d31ea974d7510ba4-text/javascript"></script>
+    <script src="https://freecoder.in/login/js/main.js"></script>
     <script src="https://freecoder.in/login/vendor/bootstrap/js/popper.js" type="976b4401d31ea974d7510ba4-text/javascript"></script>
     <script src="https://freecoder.in/login/vendor/bootstrap/js/bootstrap.min.js" type="976b4401d31ea974d7510ba4-text/javascript"></script>
 </body>
