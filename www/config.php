@@ -5,7 +5,7 @@
    $credentials = getenv('CREDENTIALS');
 
    echo $host.'<br>';
-   echo $port.'<br>';
+   //echo $port.'<br>';
    echo $dbname.'<br>';
    echo $credentials.'<br>';
 
