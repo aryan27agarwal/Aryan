@@ -1,8 +1,8 @@
 <?php
-   $host        = $HOST;
-   $port        = $PORT;
-   $dbname      = $DB_NAME;
-   $credentials = $CREDENTIALS;
+   $host        = HOST;
+   $port        = PORT;
+   $dbname      = DB_NAME;
+   $credentials = CREDENTIALS;
 
    $db = pg_connect( "$host $port $dbname $credentials"  );
    if(!$db) {
