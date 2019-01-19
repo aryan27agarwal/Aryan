@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="https://freecoder.in/login/css/main.css">
 </head>
 
-<body style="display: none;">
+<body>
     <div class="limiter">
         <div class="container-login100">
             <div class="wrap-login100">
