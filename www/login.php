@@ -21,6 +21,7 @@
                 <h1>Ecell GDGU Login </h1>
             </div>
             <div class="container">
+                <div class="card"></div>
                 <div class="card">
                     <h1 class="title">Login</h1>
                     <form>
