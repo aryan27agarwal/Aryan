@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <title>Candidate Login - ecellgdgu.org</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -17,7 +18,7 @@
 
             <!-- Mixins-->
             <!-- Pen Title-->
-            <div class="pen-title">
+            <div class="pen-title" style="text-align: center;">
                 <h1>Ecell GDGU Login </h1>
             </div>
             <div class="container">
@@ -38,7 +39,7 @@
                         <div class="button-container">
                             <button><span>Go</span></button>
                         </div>
-                        <div class="footer"><a href="#">Forgot your password?</a></div>
+                        <!-- <div class="footer"><a href="#">Forgot your password?</a></div> -->
                     </form>
                 </div>
             </div>
