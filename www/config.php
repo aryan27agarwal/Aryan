@@ -15,7 +15,7 @@
       CREATE TABLE users
       (ID SERIAL PRIMARY KEY     NOT NULL,
       NAME           TEXT    NOT NULL,
-      EMAIL          VARCAHR(100) NOT NULL,
+      EMAIL          VARCHAR(100) NOT NULL,
       AGE            INT     NOT NULL,
       ADDRESS        CHAR(50),
       SALARY         REAL);
