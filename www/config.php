@@ -1,9 +1,9 @@
 <?php
-   $host        = $_ENV["HOST"];
-   $port        = $_ENV["PORT"];
-   $dbname      = $_ENV["DB_NAME"];
-   $credentials = $_ENV["CREDENTIALS"];
-   
+   $host        = $HOST;
+   $port        = $PORT;
+   $dbname      = $DB_NAME;
+   $credentials = $CREDENTIALS;
+
    $db = pg_connect( "$host $port $dbname $credentials"  );
    if(!$db) {
       echo "Error : Unable to open database\n";
