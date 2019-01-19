@@ -21,8 +21,7 @@
 //       SALARY         REAL);
 // EOF;
    $sql =<<<EOF
-      INSERT INTO users (NAME,EMAIL,AGE,ADDRESS,SALARY)
-      VALUES ('Amit','amitdagar4096@gmail.com', 32, 'Palwal', 20000.00 );
+      DROP Table users;
 EOF;
 
    $ret = pg_query($db, $sql);
