@@ -14,22 +14,16 @@
 
     <!------ Include the above in your HEAD tag ---------->
 
-    <div class="container">
+    <div class="container" style="margin-top: 80px;">
         <div class="row">
-
-            <!-- Mixins-->
-            <!-- Pen Title-->
-            <div class="pen-title" style="text-align: center;">
-                <h2>Ecell GDGU Login </h2>
-            </div>
             <div class="container">
                 <div class="card"></div>
                 <div class="card">
-                    <h3 class="title">Login</h3>
+                    <h3 class="title">Ecell GDGU <br>Login</h3>
                     <form>
                         <div class="input-container">
                             <input type="text" id="Username" required="required" />
-                            <label for="Username">Username</label>
+                            <label for="Username">User ID</label>
                             <div class="bar"></div>
                         </div>
                         <div class="input-container">
@@ -38,7 +32,7 @@
                             <div class="bar"></div>
                         </div>
                         <div class="button-container">
-                            <button><span>Go</span></button>
+                            <button><span>Login</span></button>
                         </div>
                         <!-- <div class="footer"><a href="#">Forgot your password?</a></div> -->
                     </form>
