@@ -1,6 +1,6 @@
 <?php
    $host        = getenv('HOST');
-   $port        = getenv('PORT');
+   $port        = getenv('DB_PORT');
    $dbname      = getenv('DB_NAME');
    $credentials = getenv('CREDENTIALS');
 
