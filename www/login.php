@@ -9,22 +9,13 @@ if(isset($_SESSION['username']))
 else
 {
     if(isset($_POST['username'])){
-        //$username=$_POST['username'];
-        
-        $db = new Database;
-        $sql = "SELECT * FROM recruits WHERE username = :username";
-        $data = array('username' => $username);
-        $stmt = $db->query($sql, $data);
-        foreach($stmt as $row) 
-        {
-            var_dump($row);
-        }
-        die;
-        if($rows>0)
-        {
-            $_SESSION['username']=$username;
-            echo'<script>window.location.href="welcome.php";</script>';
-        }
+    $db = new Database;
+    $sql = "SELECT * FROM recruits WHERE username = :username";
+    $data = array('username' => 'ecellGdguCa001');
+    $stmt = $db->query($sql, $data);
+    foreach($stmt as $row) 
+    {
+        var_dump($row);
     }
 ?>
 <html>
