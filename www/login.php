@@ -44,7 +44,7 @@ else
                 <div class="card"></div>
                 <div class="card">
                     <h3 class="title">Ecell GDGU <br>Login</h3>
-                    <form>
+                    <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
                         <div class="input-container">
                             <input type="text" name="username" id="Username" required="required" />
                             <label for="Username">User ID</label>
