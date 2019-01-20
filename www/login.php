@@ -1,6 +1,6 @@
 <?php
 session_start();
-//include '../lib/database.php';
+require_once('../vendor/autoload.php');
 $i=0;
 if(isset($_SESSION['username'])) 
 {
