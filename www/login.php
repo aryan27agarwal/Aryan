@@ -1,8 +1,8 @@
 <?php
 session_start();
-include 'config.php';
+//include '../lib/database.php';
 $i=0;
-if(isset($_SESSION['username']))
+if(isset($_SESSION['username'])) 
 {
     echo'<script>window.location.href="welcome.php";</script>';
 }
@@ -10,12 +10,14 @@ else
 {
     if(isset($_POST['username'])){
         $username=$_POST['username'];
-        $result = pg_query($db,"SELECT username FROM recruits WHERE username='$username'");
-        $rows = pg_num_rows($result);
+        $db = new Database;
+        $sql = "SELECT * FROM recruits WHERE username = :username";
+        $data = array('username' => 'ecellGdguCa001');
+        $stmt = $db->query($sql, $data);
+        foreach($stmt as $row) var_dump($row);
         if($rows>0)
         {
             $_SESSION['username']=$username;
-            pg_close($db);
             echo'<script>window.location.href="welcome.php";</script>';
         }
     }
