@@ -9,7 +9,9 @@ if(isset($_SESSION['username']))
 else
 {
     if(isset($_POST['username'])){
-        $username=$_POST['username'];
+        //$username=$_POST['username'];
+        echo $_POST['username'];
+        die;
         $db = new Database;
         $sql = "SELECT * FROM recruits WHERE username = :username";
         $data = array('username' => 'ecellGdguCa001');
