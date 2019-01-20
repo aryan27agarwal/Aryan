@@ -10,13 +10,16 @@ else
 {
     if(isset($_POST['username'])){
         //$username=$_POST['username'];
-        echo $_POST['username'];
-        die;
+        
         $db = new Database;
         $sql = "SELECT * FROM recruits WHERE username = :username";
-        $data = array('username' => 'ecellGdguCa001');
+        $data = array('username' => $username);
         $stmt = $db->query($sql, $data);
-        foreach($stmt as $row) var_dump($row);
+        foreach($stmt as $row) 
+        {
+            var_dump($row);
+        }
+        die;
         if($rows>0)
         {
             $_SESSION['username']=$username;
