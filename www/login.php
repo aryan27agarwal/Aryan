@@ -1,3 +1,25 @@
+<?php
+session_start();
+include 'config.php';
+$i=0;
+if(isset($_SESSION['username']))
+{
+    echo'<script>window.location.href="welcome.php";</script>';
+}
+else
+{
+    if(isset($_POST['username'])){
+        $username=$_POST['username'];
+        $result = pg_query($db,"SELECT username FROM recruits WHERE username='$username'");
+        $rows = pg_num_rows($result);
+        if($rows>0)
+        {
+            $_SESSION['username']=$username;
+            pg_close($db);
+            echo'<script>window.location.href="welcome.php";</script>';
+        }
+    }
+?>
 <html>
 
 <head>
@@ -22,17 +44,12 @@
                     <h3 class="title">Ecell GDGU <br>Login</h3>
                     <form>
                         <div class="input-container">
-                            <input type="text" id="Username" required="required" />
+                            <input type="text" name="username" id="Username" required="required" />
                             <label for="Username">User ID</label>
                             <div class="bar"></div>
                         </div>
-                        <div class="input-container">
-                            <input type="password" id="Password" required="required" />
-                            <label for="Password">Password</label>
-                            <div class="bar"></div>
-                        </div>
                         <div class="button-container">
-                            <button><span>Login</span></button>
+                            <button type="submit"><span>Login</span></button>
                         </div>
                         <!-- <div class="footer"><a href="#">Forgot your password?</a></div> -->
                     </form>
@@ -43,3 +60,6 @@
 </body>
 
 </html>
+<?php
+}
+?>
