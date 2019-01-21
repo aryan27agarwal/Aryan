@@ -1,11 +1,11 @@
 ﻿<?php
-$title = 'Testimonials';
+$title = 'Campus Ambassador Tasks';
 $stylesheets = array('/stylesheets/testimonials.css');
 include('header.php');
 ?>
 
     <div class="bg">
-    <h1 align="center"> Hello Campus Ambassadors, here are the task you need to perform initally.</h1>
+    <h1> Hello Campus Ambassadors, <br><small>here are the list of tasks that you need to perform initally.</small></h1>
 
     <table>
     <tr>
