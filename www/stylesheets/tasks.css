@@ -1,0 +1,22 @@
+body {
+    background-image: url(../images/verge.jpg);
+    background-attachment: fixed;
+    text-align: center;
+}
+p.deadline {
+    color: #ffffff;
+    font-size: 1.1em;
+}
+p.deadline time {
+    font-size: 2em;
+}
+div.container {
+    background-color: rgba(64, 66, 68, 0.5);
+}
+div.container a {
+    color: #fff;
+    text-decoration: underline;
+}
+div.container a:hover {
+    text-decoration: none;
+}
