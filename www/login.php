@@ -4,8 +4,5 @@ $db = new Database;
 $sql = "SELECT * FROM recruits WHERE username = :username";
 $data = array('username' => 'ecellGdguCa01');
 $stmt = $db->query($sql, $data);
-foreach($stmt as $row) 
-{
-    var_dump($row);
-}
+var_dump($stmt->fetch());
 ?>
