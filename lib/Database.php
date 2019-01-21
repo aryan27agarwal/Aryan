@@ -23,7 +23,8 @@ class Database {
     }
 
     public function query($query, $data) {
-        $stmt = $this->$pdo->prepare($query)->execute($data);
+        $stmt = $this->$pdo->prepare($query);
+        $stmt->execute($data);
         // the returned value can be traversed like fetch()
         return $stmt;
     }
