@@ -4,11 +4,14 @@ $stylesheets = array('/stylesheets/ambassador.css');
 include('header.php');
 ?>
 <div class="background fm">
+  <div class="form">
+  <h2 align = "center"><a href="\task.php">Already Registerd ?</a></h2>
+</div>
 <div class="form">
  <form method="post" action="ambassadors_submit.php"  autocomplete="on">
 
 <h1>Want to be your Campus Ambassador? </h1>
-<h2 > Sign up with your details </h2>
+<h2>Sign up with your details </h2>
 <br>
 <input type="text" placeholder="Name" name="name"><br><br>
 <input type="email" placeholder="Email Address" name="email"><br><br>
