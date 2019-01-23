@@ -8,7 +8,19 @@ if(isset($_SESSION['username']))
 }
 else
 {
-echo "Record TEsting:";
+    if(isset($_POST['username'])){
+        $username=$_POST['username'];
+        $db = new Database;
+        $sql = "SELECT * FROM recruits WHERE username = :username";
+        $data = array('username' => $username);
+        $stmt = $db->query($sql, $data);
+        var_dump($stmt->fetch());
+        if($rows>0)
+        {
+            $_SESSION['username']=$username;
+            echo'<script>window.location.href="welcome.php";</script>';
+        }
+    }
 ?>
 <html>
 
@@ -32,7 +44,7 @@ echo "Record TEsting:";
                 <div class="card"></div>
                 <div class="card">
                     <h3 class="title">Ecell GDGU <br>Login</h3>
-                    <form>
+                    <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
                         <div class="input-container">
                             <input type="text" name="username" id="Username" required="required" />
                             <label for="Username">User ID</label>
