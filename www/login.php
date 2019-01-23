@@ -52,7 +52,7 @@ else
                             <div class="alert alert-danger">Sorry! invalid credentials.</div>
                         </div><?php } ?>
                         <div class="input-container">
-                            <input type="text" name="username" id="Username" required="required" />
+                            <input type="text" name="username" id="Username" required="required" value="<?php if(isset($_POST['username'])){echo $_POST['username'];}?>" />
                             <label for="Username">User ID</label>
                             <div class="bar"></div>
                         </div>
