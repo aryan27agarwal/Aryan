@@ -31,7 +31,14 @@ include('header.php');
     <p>Follow E-Cell GDGU on Twitter <a href="https://twitter.com/ecellgdgu">@ecellgdgu</a>.</p>
     </div>
     </td>
+    </tr>
     <tr>
+    <td>
+    <div class="container">
+    <p><span>Submission</span></p>
+    <p>After completing these initial tasks fill up this <a href="https://goo.gl/forms/euIVHoo89h2MfxSB2">google form</a> in order to complete submission procedure.</p>
+    </div>
+    </td>
 
     </tr>
     </table>
