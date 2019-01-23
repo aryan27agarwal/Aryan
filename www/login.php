@@ -8,19 +8,7 @@ if(isset($_SESSION['username']))
 }
 else
 {
-    if(isset($_POST['username'])){
-        $username=$_POST['username'];
-        $db = new Database;
-        $sql = "SELECT * FROM recruits WHERE username = :username";
-        $data = array('username' => $username);
-        $stmt = $db->query($sql, $data);
-        var_dump($stmt->fetch());
-        if($rows>0)
-        {
-            $_SESSION['username']=$username;
-            echo'<script>window.location.href="welcome.php";</script>';
-        }
-    }
+echo "Record TEsting:";
 ?>
 <html>
 
