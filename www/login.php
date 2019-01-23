@@ -20,6 +20,8 @@ else
             $_SESSION['username']=$username;
             echo'<script>window.location.href="welcome.php";</script>';
         }
+        else
+            $i=1;
     }
 ?>
 <html>
@@ -45,6 +47,10 @@ else
                 <div class="card">
                     <h3 class="title">Ecell GDGU <br>Login</h3>
                     <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
+                        <?php if($i==1){?>
+                        <div class="input-container">
+                            <div class="alert alert-danger">Sorry! invalid credentials.</div>
+                        </div><?php } ?>
                         <div class="input-container">
                             <input type="text" name="username" id="Username" required="required" />
                             <label for="Username">User ID</label>
