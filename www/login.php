@@ -14,7 +14,8 @@ else
         $sql = "SELECT * FROM recruits WHERE username = :username";
         $data = array('username' => $username);
         $stmt = $db->query($sql, $data);
-        if($stmt->num_rows>0)
+        $row=$stmt->fetch();
+        if($row['username']==$username)
         {
             $_SESSION['username']=$username;
             echo'<script>window.location.href="welcome.php";</script>';
