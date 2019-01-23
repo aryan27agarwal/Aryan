@@ -14,12 +14,11 @@ else
         $sql = "SELECT * FROM recruits WHERE username = :username";
         $data = array('username' => $username);
         $stmt = $db->query($sql, $data);
-        var_dump($stmt->fetch());
-        // if($rows>0)
-        // {
-        //     $_SESSION['username']=$username;
-        //     echo'<script>window.location.href="welcome.php";</script>';
-        // }
+        if($stmt->num_rows>0)
+        {
+            $_SESSION['username']=$username;
+            echo'<script>window.location.href="welcome.php";</script>';
+        }
     }
 ?>
 <html>
