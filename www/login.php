@@ -17,7 +17,6 @@ else
         $row=$stmt->fetch();
         if($row['username']==$username)
         {
-            $i=1;
             $_SESSION['username']=$username;
             echo'<script>window.location.href="welcome.php";</script>';
         }
@@ -51,10 +50,6 @@ else
                         <?php if($i==2){?>
                         <div class="input-container">
                             <div class="alert alert-danger">Sorry! invalid credentials.</div>
-                        </div><?php } ?>
-                        <?php if($i==1){?>
-                        <div class="input-container">
-                            <div class="alert alert-success">Login Successful, Redirecting...</div>
                         </div><?php } ?>
                         <div class="input-container">
                             <input type="text" name="username" id="Username" required="required" value="<?php if(isset($_POST['username'])){echo $_POST['username'];}?>" />
