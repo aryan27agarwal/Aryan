@@ -11,7 +11,7 @@ else
     if(isset($_POST['username'])){
         $username=$_POST['username'];
         $db = new Database;
-        $sql = "SELECT * FROM recruits WHERE username = :username";
+        $sql = "SELECT username FROM recruits WHERE username = :username";
         $data = array('username' => $username);
         $stmt = $db->query($sql, $data);
         $row=$stmt->fetch();
