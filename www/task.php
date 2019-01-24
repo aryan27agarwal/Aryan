@@ -16,7 +16,7 @@ include('header.php');
     <div class="container">
     <p><span>LinkedIn Profile</span></p>
     <p>You are required to create your own LinkedIn profile</p>
-    <p>Follow <a href="https://in.linkedin.com">E-Cell GDGU page</a> on LinkedIn </p>
+    <p>Follow <a href="https://www.linkedin.com/company/ecellgdgu">E-Cell GDGU page</a> on LinkedIn </p>
     <p>Add to your profile, working as a Campus Ambassador at E-Cell GDGU by January-2019<p>
     </div>
     </td>
