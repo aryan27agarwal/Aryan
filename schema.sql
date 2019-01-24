@@ -34,3 +34,26 @@ CREATE TABLE recruits (
     phone NUMERIC(13, 0),
     username VARCHAR(30) PRIMARY KEY
 );
+
+Table -- Idea
++------------+---------------+------+-----+---------+-------+
+| Field      | Type          | Null | Key | Default | Extra |
++------------+---------------+------+-----+---------+-------+
+| name1      | text          | YES  |     | NULL    |       |
+| name2      | text          | YES  |     | NULL    |       |
+| name3      | text          | YES  |     | NULL    |       |
+| email1     | varchar(100)  | YES  |     | NULL    |       |
+| email2     | varchar(100)  | YES  |     | NULL    |       |
+| email3     | varchar(100)  | YES  |     | NULL    |       |
+| phone1     | decimal(13,0) | YES  |     | NULL    |       |
+| phone2     | decimal(13,0) | YES  |     | NULL    |       |
+| phone3     | decimal(13,0) | YES  |     | NULL    |       |
+| university | varchar(100)  | YES  |     | NULL    |       |
+| state      | varchar(50)   | YES  |     | NULL    |       |
+| pincode    | decimal(10,0) | YES  |     | NULL    |       |
+| city       | varchar(60)   | YES  |     | NULL    |       |
+| title      | varchar(20)   | YES  |     | NULL    |       |
+| idea_desc  | text          | YES  |     | NULL    |       |
+| stage      | varchar(15)   | YES  |     | NULL    |       |
+| ss         | longblob      | YES  |     | NULL    |       |
++------------+---------------+------+-----+---------+-------+
