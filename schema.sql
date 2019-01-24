@@ -25,3 +25,12 @@ CREATE TABLE contactus (
     email VARCHAR(100),
     query TEXT
 );
+
+CREATE TABLE recruits (
+    name TEXT,
+    city TEXT,
+    college TEXT,
+    email VARCHAR(255),
+    phone NUMERIC(13, 0),
+    username VARCHAR(30) PRIMARY KEY
+);
