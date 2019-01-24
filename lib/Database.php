@@ -9,13 +9,13 @@ define('DB_PASSWD', $db_url['pass']);
 define('DB_PORT', $db_url['port']);
 define('DB_NAME', substr($db_url['path'], 1));
 
-define('POSTGRES_DSN', sprintf('pgsql:host=%s;dbname=%s;port=%s', DB_HOST, DB_NAME, DB_PORT));
+define('MYSQL_DSN', sprintf('mysql:host=%s;dbname=%s;port=%s', DB_HOST, DB_NAME, DB_PORT));
 
 class Database {
     private $pdo;
 
     public function __construct() {
-        $this->$pdo = new PDO(POSTGRES_DSN, DB_USER, DB_PASSWD, [
+        $this->$pdo = new PDO(MYSQL_DSN, DB_USER, DB_PASSWD, [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
             PDO::ATTR_PERSISTENT => true
