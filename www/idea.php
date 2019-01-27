@@ -5,28 +5,28 @@ include('header.php');
 ?>
 <div class="background fm">
 <div class="form">
- <form method="post" action="enthusiasts_submit.php"  autocomplete="on">
+ <form method="post" action="idea_submit.php"  autocomplete="on">
 
 <h2>Get your team registered for</h2><h1 >Idea 2019</h1>
 <br>
-<h3>Team Member Names</h3>
-<input type="text" placeholder="Name" name="name" required>
-<input type="text" placeholder="Name" name="name">
-<input type="text" placeholder="Name" name="name">
+<h3>Team leader</h3>
+<input type="text" placeholder="Name" name="name1" required>
+<input type="email" placeholder="Email Address" name="email1" required>
+<input type="tel" placeholder="Phone Number" name="phone1" required>
 <br><br>
-<h3>Email Address</h3>
-<input type="email" placeholder="Email Address" name="email" required>
-<input type="email" placeholder="Email Address" name="email">
-<input type="email" placeholder="Email Address" name="email">
+<h3>Team Member 1 (optional)</h3>
+<input type="text" placeholder="Name" name="name2">
+<input type="email" placeholder="Email Address" name="email2">
+<input type="tel" placeholder="Phone Number" name="phone2">
 <br><br>
-<h3>Phone Number</h3>
-<input type="tel" placeholder="Phone Number" name="phno" required>
-<input type="tel" placeholder="Phone Number" name="phno">
-<input type="tel" placeholder="Phone Number" name="phno">
+<h3>Team Member 2 (optional)</h3>
+<input type="text" placeholder="Name" name="name3">
+<input type="email" placeholder="Email Address" name="email3">
+<input type="tel" placeholder="Phone Number" name="phone3">
 <br><br>
 <h3>Additional Information</h3>
-<input type="text" name="college"  placeholder="University">
-<select name=slist>
+<input type="text" name="university"  placeholder="University">
+<select name="state">
 <option value="">Select State</option>
 <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
 <option value="Andhra Pradesh">Andhra Pradesh</option>
@@ -69,7 +69,7 @@ include('header.php');
 <br><br>
 <h3>Idea</h3>
 <input type="text" placeholder="Title / Project Name (15words)" name="title" maxlength="15">
-<textarea id="subject" name="query" placeholder="Idea Description (maximum 100)" style="height:120px" maxlength="100"></textarea>
+<textarea id="subject" name="idea_desc" placeholder="Idea Description (maximum 100)" style="height:120px" maxlength="100"></textarea>
 <br>
 <h3>Stage of Idea</h3>
 <input type="radio" name="stage" value="idea">Idea
@@ -79,7 +79,7 @@ include('header.php');
 <br><br> For payment throung PayTm <a href="https://goo.gl/UrVR4S">click here</a>.</h2>
 <br><br>
 Upload the screenshot of your PayTm payment:
-   <input type="file" name="fileToUpload" id="fileToUpload">
+   <input type="file" name="ss" id="fileToUpload">
    <input type="submit" value="Upload Image" name="submit">
 <input id="opt-in" onclick="inchanged()" type="radio" name="opt" value="opt-in">Accept our Terms and Condition<br>
 </b><br>

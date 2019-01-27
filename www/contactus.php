@@ -18,11 +18,11 @@ include('header.php');
     <div class="column">
       <form method="post" action="contactus_submit.php"  autocomplete="on">
         <label for="fname"></label>
-        <input type="text" id="fname" name="fname" placeholder="First Name">
+        <input type="text" id="fname" name="fname" placeholder="First Name" required>
         <label for="lname"></label>
         <input type="text" id="lname" name="lname" placeholder="Last Name">
         <label for="mail"></label>
-        <input type="text" id="mail" name="email" placeholder="Email Address">
+        <input type="text" id="mail" name="email" placeholder="Email Address" required>
         <textarea id="subject" name="query" placeholder="Query" style="height:170px"></textarea>
         <input type="submit" value="Submit">
       </form>

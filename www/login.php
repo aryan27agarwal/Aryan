@@ -45,7 +45,7 @@ else
             <div class="container">
                 <div class="card"></div>
                 <div class="card">
-                    <h3 class="title">Campus Ambassador <br>Login</h3>
+                    <h3 class="title">E-cell GDGU <br>Login</h3>
                     <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
                         <?php if($i==2){?>
                         <div class="input-container">
