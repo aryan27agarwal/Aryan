@@ -72,16 +72,14 @@ include('header.php');
 <textarea id="subject" name="idea_desc" placeholder="Idea Description (maximum 100)" style="height:120px" maxlength="100"></textarea>
 <br>
 <h3>Stage of Idea</h3>
-<input type="radio" name="stage" value="idea">Idea
+<input type="radio" name="stage" value="idea">  Idea
 <input type="radio" name="stage" value="blueprint"> Blueprint
 <input type="radio" name="stage" value="prototype"> Prototype
-<input type="radio" name="stage" value="launch"> Launch
+<input type="radio" name="stage" value="launch">  Launch
 <br><br> For payment throung PayTm <a href="https://goo.gl/UrVR4S">click here</a>.</h2>
 <br><br>
-Upload the screenshot of your PayTm payment:
-   <input type="file" name="ss" id="fileToUpload">
-   <input type="submit" value="Upload Image" name="submit">
-<input id="opt-in" onclick="inchanged()" type="radio" name="opt" value="opt-in">Accept our Terms and Condition<br>
+<input type="text" placeholder="Enter your PayTm OrderID" name="name2" required>
+<input id="opt-in" onclick="inchanged()" type="radio" name="opt" value="opt-in">  Accept our Terms and Condition<br>
 </b><br>
 <input class="final" id="Submit" disabled="disabled" type="submit" value="Submit">
 <br>

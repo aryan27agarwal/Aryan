@@ -54,7 +54,7 @@
                     <nav class="navbar-default">
                         <ul class="nav navbar-nav navbar-right">
                             <?php
-                                // will print list of li inside 
+                                // will print list of li inside
                                 // the navbar that has link to
                                 // different page. Also, auto assigns
                                 // active class li based on current script
@@ -65,7 +65,8 @@
                                     '/contactus.php' => 'Contact Us',
                                     '/supportteam.php' => 'Support Team',
                                     '/enthusiasts.php' => 'Enthusiasts',
-				    '/ambassadors.php' => 'Ambassadors'
+				                            '/ambassadors.php' => 'Ambassadors',
+                                    '/idea/index.html' => 'Idea 2019'
                                 );
                                 $template = '<li class="%s"><a href="%s" class="whitish">%s</a></li>';
                                 foreach($listOfPages as $pagePath => $pageName) {
@@ -80,4 +81,4 @@
                         </ul>
                     </nav>
             </div>
-        </div>  
+        </div>
