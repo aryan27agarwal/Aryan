@@ -65,8 +65,7 @@
                                     '/contactus.php' => 'Contact Us',
                                     '/supportteam.php' => 'Support Team',
                                     '/enthusiasts.php' => 'Enthusiasts',
-				                            '/ambassadors.php' => 'Ambassadors',
-                                    '/idea/index.html' => 'Idea 2019'
+				                            '/ambassadors.php' => 'Ambassadors'
                                 );
                                 $template = '<li class="%s"><a href="%s" class="whitish">%s</a></li>';
                                 foreach($listOfPages as $pagePath => $pageName) {

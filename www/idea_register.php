@@ -68,30 +68,23 @@ include('header.php');
 <input type="text"  name="city" placeholder="City">
 <br><br>
 <h3>Idea</h3>
-<input type="text" placeholder="Title / Project Name (15words)" name="title" maxlength="15">
-<textarea id="subject" name="idea_desc" placeholder="Idea Description (maximum 100)" style="height:120px" maxlength="100"></textarea>
+<input type="text" placeholder="Title / Project Name (15words)" name="title" maxlength="15" required>
+<textarea id="subject" name="idea_desc" placeholder="Idea Description (maximum 100)" style="height:120px" maxlength="100" required></textarea>
 <br>
 <h3>Stage of Idea</h3>
 <input type="radio" name="stage" value="idea">  Idea
 <input type="radio" name="stage" value="blueprint"> Blueprint
 <input type="radio" name="stage" value="prototype"> Prototype
 <input type="radio" name="stage" value="launch">  Launch
-<br><br> For payment throung PayTm <a href="https://goo.gl/UrVR4S">click here</a>.</h2>
+<br><br> For payment throung PayTm <a href="https://goo.gl/UrVR4S " target="_blank">click here</a>.<br>
+<br>In the Institution Area select Idea 2019.<br>
+The Payment Should be made in the name of Team Leader only.</h2>
 <br><br>
-<input type="text" placeholder="Enter your PayTm OrderID" name="name2" required>
-<input id="opt-in" onclick="inchanged()" type="radio" name="opt" value="opt-in">  Accept our Terms and Condition<br>
-</b><br>
-<input class="final" id="Submit" disabled="disabled" type="submit" value="Submit">
+<input type="text" placeholder="Enter your PayTm OrderID" name="paytm" required>
+<input class="final" type="submit" value="Submit">
 <br>
 </form>
-<script>
-function outchanged() {
-document.getElementById("Submit").disabled=true;
-}
-function inchanged(){
-document.getElementById("Submit").disabled=false;
-}
-</script>
+
 </div>
 </div>
 <?php

@@ -7,7 +7,7 @@ include('header.php');
     <div class="bg">
     <h1> Hello Campus Ambassadors, <br><small>here are the list of tasks that you need to perform initally.</small></h1>
 
-    <p class="deadline">The deadline for completing all of the tasks enlisted beneath is <time>31-01-2019</time>.</p>
+    <p class="deadline">The deadline for completing all of the tasks enlisted beneath is <time>02-02-2019</time>.</p>
     <p class="deadline">You'll be informed through our official communication channels as to what needs to be done after completion of these tasks.<br>You'll receive <time>30 reward points</time> upon successful completion.</p>
 
     <table>
@@ -27,7 +27,7 @@ include('header.php');
     <p><span>LinkedIn Connections</span></p>
     <p>Follow <a href="https://www.linkedin.com/company/ecellgdgu" target="_blank">E-Cell GDGU page</a> on LinkedIn.</p>
     <p>Add to your profile, working as a Campus Ambassador at E-Cell GDGU since January-2019.<p>
-    <p>Make sure to add a minimum 500 connections to your LinkedIn profile.</p>
+    <p>Make sure to add a minimum 150 connections to your LinkedIn profile.</p>
     </div>
     </td>
     </tr>
