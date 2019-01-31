@@ -4,7 +4,7 @@ define('CONTACTUS_MESSAGE', "Thank you %s for contacting us.
 We have received your query and are looking forward to contacting you back as soon as possible.
 \nYou are receiving this message because you tried to contact us through the E-Cell GD Goenka University website.");
 
-define('CONTACTUS_TG_MESSAGE', "Somebody is willing to contact.
+define('CONTACTUS_TG_MESSAGE', "New registeration for Idea 2019.
 *Details are:*
 ```yaml\n%s\n```");
 
