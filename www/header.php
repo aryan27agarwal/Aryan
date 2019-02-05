@@ -64,7 +64,6 @@
                                     '/events.php' => 'Events',
                                     '/contactus.php' => 'Contact Us',
                                     '/supportteam.php' => 'Support Team',
-                                    '/idea/index.html' => 'Idea2019',
                                     '/enthusiasts.php' => 'Enthusiasts',
 				                            '/ambassadors.php' => 'Ambassadors'
 

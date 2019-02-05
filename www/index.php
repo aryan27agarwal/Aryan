@@ -13,21 +13,20 @@ include('header.php');
             <h3>GD Goenka Technology Business Incubator</h3>
         </div>
         <div class="boxwrapper">
-            <button class="box blue">
-                Sign In
-            </button>
+          <a href="idea/index.html">
             <button class="box">
-                Know More
+                Idea 2019
             </button>
+          </a>
         </div>
-        <a>
+        <a href="#next">
           <span class="glyphicon glyphicon-menu-down"></span>
         </a>
     </div>
 </div>
 
 <!--mission-->
-<div class="mission">
+<div id="next" class="mission">
   <h1 class="text-center dream">Your dream begins here.</h1><br>
  <div class="row">
   <div class="col-sm-6">
