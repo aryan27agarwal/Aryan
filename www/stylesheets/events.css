@@ -18,8 +18,13 @@
         margin: 10px auto;
        }
 
+  div.background.event{
+      background-image: url(../images/events/p.jpg);
+         background-size: cover;
+         background-attachment: fixed;
+         min-height: 100vh;
+       }
   body{
-        background: url(images/events/eventbackground.png);
          font-family: Helvetica, sans-serif;
          text-color:white;
       }

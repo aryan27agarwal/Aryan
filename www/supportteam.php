@@ -66,11 +66,13 @@ include('header.php');
     </div>
   </div>
   <br>
-  <h1>Web Development <small><code> <a href="https://github.com/gdgu/ecellgdgu/contributors">:. info .:</a> </code></small></h1>
+  <h1>Web Development
+<a href="https://github.com/gdgu/ecellgdgu/contributors" class="btn-floating btn-lg btn-git" type="button" role="button"><i class="fa fa-github" ></i></a>
+</h1>
   <div class="row">
     <div class="col-sm-6">
       <div class="container">
-        <h2>Aryan</h2>
+        <h2>Aryan Agarwal</h2>
       </div>
     </div>
     <div class="col-sm-6">

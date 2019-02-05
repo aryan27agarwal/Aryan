@@ -3,12 +3,12 @@ $title = 'Events';
 $stylesheets = array('/stylesheets/events.css');
 include('header.php');
 ?>
+<div class="background event">
 <div class="heading">
 <b>  EVENTS </b>
 </div>
     <table align="center"  width="500" >
     <th>
-</div>
     </th>
 
 <tr>
@@ -19,8 +19,7 @@ include('header.php');
   </td>
   </tr>
   <tr>
-    <td><br>
-      ------------------------------------------------------------------------------------
+    <td><br><br>
       </td>
     </tr>
   <tr>
@@ -30,11 +29,10 @@ include('header.php');
   </td>
     </tr>
     <tr>
-      <td><br>
-        ------------------------------------------------------------------------------------
-        </td>
+      <td><br>        </td>
       </tr>
     </table>
+  </div>
 <?php
 $scripts = array('');
 include('footer.php');
