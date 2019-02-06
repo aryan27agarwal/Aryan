@@ -1,7 +1,7 @@
 <?php
 define('IDEA_SUBJECT', "You've been successfuly registered!");
 define('IDEA_MESSAGE', "Thank you %s for registering for IDEA '19.
-We have received your registeration for IDEA 2019 you will be receiving a confirmation mail once your registeration is reviewed.
+We have received your registeration you will be receiving a confirmation mail once your registeration is reviewed.
 \nYou are receiving this message because you have registered for IDEA 2019 through the E-Cell GD Goenka University website.");
 
 define('IDEA_TG_MESSAGE', "New registeration for Idea 2019.
