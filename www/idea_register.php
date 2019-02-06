@@ -80,7 +80,7 @@ include('header.php');
 <br>In the Institution Area select Idea 2019.<br>
 The Payment Should be made in the name of Team Leader only.</h2>
 <br><br>
-<input type="text" placeholder="Enter your PayTm OrderID" name="paytm" required>
+<input type="text" placeholder="Enter your PayTm OrderID/ TransactionID" name="paytm" required>
 <input class="final" type="submit" value="Submit">
 <br>
 </form>
