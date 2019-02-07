@@ -8,7 +8,8 @@ include('header.php');
  <form method="post" action="idea_submit.php"  autocomplete="on">
 
 <h2>Get your team registered for</h2>
-<div style="text-align: center;"><img class="qr" src="idea/img/idealogo.png" width="50%" align="center" style="display: inline;"></div>
+<div style="text-align: center;">
+  <a href="idea/index.html"><img class="qr" src="idea/img/idealogo.png" width="50%" alt="Idea 2019" align="center" style="display: inline;"></a></div>
 
 <h3>Team leader</h3>
 <input type="text" placeholder="Name" name="name1" required>
@@ -78,7 +79,9 @@ include('header.php');
 <input type="radio" name="stage" value="prototype"> Prototype
 <input type="radio" name="stage" value="launch">  Launch
 <br><br> For payment throung PayTm <a href="http://m.p-y.tm/idea_2019_nrweb" target="_blank">click here</a>.<br><br>
-<div style="text-align: center;"><img class="qr" src="images/paytmqr.png" width="50%" align="center" style="display: inline;"></div><br>
+<div style="text-align: center;">
+<a href="http://m.p-y.tm/idea_2019_nrweb">
+  <img class="qr" src="images/paytmqr.png" width="50%" align="center" style="display: inline;"></a></div><br>
 <br>The Payment Should be made in the name of Team Leader only.
 <br><br>
 <input type="text" placeholder="Enter your PayTm OrderID/ TransactionID" name="paytm" required>
