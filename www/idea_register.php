@@ -76,8 +76,12 @@ include('header.php');
 <input type="radio" name="stage" value="blueprint"> Blueprint
 <input type="radio" name="stage" value="prototype"> Prototype
 <input type="radio" name="stage" value="launch">  Launch
-<br><br> For payment throung PayTm <a href="http://m.p-y.tm/idea_2019_nrweb" target="_blank">click here</a> or<br><br>
- scan this QR <img src="images/paytmqr.png"  width="50%" align="center"><br>
+<br><br> For payment throung PayTm <a href="http://m.p-y.tm/idea_2019_nrweb" target="_blank">click here</a>.<br><br>
+<div style="
+    text-align: center;
+"><img class="qr" src="images/paytmqr.png" width="50%" align="center" style="
+    display: inline;
+    "></div><br>
 <br>The Payment Should be made in the name of Team Leader only.
 <br><br>
 <input type="text" placeholder="Enter your PayTm OrderID/ TransactionID" name="paytm" required>

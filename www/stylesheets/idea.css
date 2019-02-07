@@ -138,3 +138,7 @@ select,  textarea
 {
   color: #000;
 }
+.qr
+{
+display: inline;
+}
