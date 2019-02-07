@@ -78,7 +78,7 @@ include('header.php');
 <input type="radio" name="stage" value="blueprint"> Blueprint
 <input type="radio" name="stage" value="prototype"> Prototype
 <input type="radio" name="stage" value="launch">  Launch
-<br><br> For payment throung PayTm <a href="http://m.p-y.tm/idea_2019_nrweb" target="_blank">click here</a>.<br><br>
+<br><br> For payment via PayTm <a href="http://m.p-y.tm/idea_2019_nrweb" target="_blank">click here</a>.<br><br>
 <div style="text-align: center;">
 <a href="http://m.p-y.tm/idea_2019_nrweb">
   <img class="qr" src="images/paytmqr.png" width="50%" align="center" style="display: inline;"></a></div><br>
