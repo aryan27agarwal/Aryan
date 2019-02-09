@@ -4,8 +4,9 @@ $stylesheets = array('/stylesheets/events.css');
 include('header.php');
 ?>
 <div class="background event">
+  <div class="container">
   <h1 align="center">Events</h1>
-
+</div>
   </head>
   <body>
   <div class="row">

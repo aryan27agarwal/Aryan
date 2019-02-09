@@ -8,7 +8,7 @@
                 margin: 0;
                 display: block;
                 padding: 1em;
-                color: purple;
+                color: white;
     }
   div.background.event
   {
@@ -21,6 +21,7 @@
       background-image: url(../images/events/p.jpg);
          font-family: Helvetica, sans-serif;
          text-color:white;
+text-align:center;
       }
 button{
   color:black;
@@ -35,15 +36,21 @@ button{
   padding: 3px;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 .center {
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 80%;
+}
+.container {
+    display: inline-block;
+    background-color: rgba(20, 100, 160, 0.5);
+    margin: 1em;
+    width: 90%;
+    border-radius: 0.5em;
+        text-align: center;
+    font-size: 1em;
+    word-wrap: break-word;
+
 }
