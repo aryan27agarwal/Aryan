@@ -13,7 +13,7 @@ include('header.php');
             <h3>GD Goenka Technology Business Incubator</h3>
         </div>
         <div class="boxwrapper">
-          <a href="idea/index.html">
+          <a href="idea/index.html" target="_blank">
             <button class="box">
                 Idea 2019
             </button>
@@ -82,7 +82,7 @@ include('header.php');
 </div>
 
 <div class="social">
-    <a href="https://www.facebook.com/GDGTBI/"><img src="/images/fb.png" class="social"></a><a href="https://twitter.com/ecellgdgu"><img src="/images/tweet.png" class="social"></a><a href="https://instagram.com/ecellgdgu"><img src="/images/insta.png" class="social"></a>
+    <a href="https://www.facebook.com/GDGTBI/" target="_blank"><img src="/images/fb.png" class="social"></a><a href="https://twitter.com/ecellgdgu" target="_blank"><img src="/images/tweet.png" class="social"></a><a href="https://instagram.com/ecellgdgu" target="_blank"><img src="/images/insta.png" class="social"></a>
 </div>
 
 <?php

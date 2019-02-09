@@ -67,7 +67,7 @@ include('header.php');
   </div>
   <br>
   <h1>Web Development
-<a href="https://github.com/gdgu/ecellgdgu/contributors" class="btn-floating btn-lg btn-git" type="button" role="button"><i class="fa fa-github" ></i></a>
+<a href="https://github.com/gdgu/ecellgdgu/contributors" target="_blank" class="btn-floating btn-lg btn-git" type="button" role="button"><i class="fa fa-github" ></i></a>
 </h1>
   <div class="row">
     <div class="col-sm-6">
