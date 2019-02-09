@@ -4,35 +4,22 @@ $stylesheets = array('/stylesheets/events.css');
 include('header.php');
 ?>
 <div class="background event">
-<div class="heading">
-<b>  EVENTS </b>
-</div>
-    <table align="center"  width="500" >
-    <th>
-    </th>
+  <h1 align="center">Events</h1>
 
-<tr>
-<td >
-  <a href="idea/index.html">
-  <img src="images/events/idea_2019.png" style="width:100%">
-  <br>
-  </td>
-  </tr>
-  <tr>
-    <td><br><br>
-      </td>
-    </tr>
-  <tr>
-<td>
-<img src="images/events/udhyami2018.jpg" style="width:100%">
-<br><br>
-  </td>
-    </tr>
-    <tr>
-      <td><br>        </td>
-      </tr>
-    </table>
+  </head>
+  <body>
+  <div class="row">
+    <div class="column">
+      <a href="idea">
+      <img src="images/events/idea_2019.png" alt="Snow" class="center">
+    </a>
+    </div>
+    <div class="column">
+      <img src="images/events/udhyami2018.jpg" alt="Forest" class="center">
+    </div>
+
   </div>
+
 <?php
 $scripts = array('');
 include('footer.php');
