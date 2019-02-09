@@ -19,7 +19,8 @@ include('header.php');
     </div>
 
   </div>
-
+<br>
+<br>
 <?php
 $scripts = array('');
 include('footer.php');
