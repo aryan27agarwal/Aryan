@@ -28,7 +28,8 @@ include('header.php');
     <p><span>Get Registeration for IDEA</span></p>
     <p>Get registrations for IDEA '19.<p>
     <p>You will be awarded 100 points extra for each registration.</p>
-    <p>Regsitration Link: <a href="https://ecellgdgu.org/idea_register.php" target="_blank">click here</a></p>
+    <p>Idea site link: <a href="https://ecellgdgu.org/idea" target="_blank">click here.</a></p>
+    <p>Regsitration Link: <a href="https://ecellgdgu.org/idea_register.php" target="_blank">click here.</a></p>
       <p>Last date for Idea registration 24th Feb 2019.</p>
       <p>To download the RuleBook for the event <a href="idea\RuleBook_IDEA'19.pdf" download >click here</a></p>
   </div>
