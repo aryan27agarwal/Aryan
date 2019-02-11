@@ -25,7 +25,7 @@ include('header.php');
     <tr>
     <td>
     <div class="container">
-    <p><span>Get Registeration for IDEA</span></p>
+    <p><span>Get Registration for IDEA</span></p>
     <p>Get registrations for IDEA '19.<p>
     <p>You will be awarded 100 points extra for each registration.</p>
     <p>Idea site link: <a href="https://ecellgdgu.org/idea" target="_blank">click here.</a></p>
