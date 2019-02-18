@@ -7,7 +7,7 @@ include('header.php');
     <div class="bg">
     <h1> Hello Campus Ambassadors, <br><small>here is the 2nd list of tasks that you need to perform.</small></h1>
 
-    <p class="deadline">The deadline for completing all of the tasks enlisted beneath is <time>15-02-2019</time>.</p>
+    <p class="deadline">The deadline for completing all of the tasks enlisted beneath is <time>24-02-2019</time>.</p>
     <p class="deadline">You'll receive <time>100 reward points</time> upon successful completion.</p>
 
     <table>
