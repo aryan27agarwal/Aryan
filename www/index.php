@@ -14,7 +14,7 @@ include('header.php');
         </div>
         <div class="boxwrapper">
           <a href="idea/index.html" target="_blank">
-            <button class="box">
+            <button class="box blue">
                 Idea 2019
             </button>
           </a>
