@@ -4,7 +4,7 @@ define('IDEA_MESSAGE', "Thank you %s for registering for IDEA '19.
 We have received your registration you will be receiving a confirmation mail once your registration is reviewed.
 \nYou are receiving this message because you have registered for IDEA 2019 through the E-Cell GD Goenka University website.");
 
-define('IDEA_TG_MESSAGE', "New registeration for Idea 2019.
+define('IDEA_TG_MESSAGE', "New registration for Idea 2019.
 *Details are:*
 ```yaml\n%s\n```");
 
