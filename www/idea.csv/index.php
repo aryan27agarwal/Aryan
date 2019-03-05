@@ -1,8 +1,8 @@
 <?php
-define('CSV_LIMIT', 5); // in MiB
+define('FILE_MEM_LIMIT', 10); // in MiB
 
 header('Content-Type: application/csv');
-$csv_file = fopen('php://temp/maxmemory:'.(CSV_LIMIT * 1024 * 1024), 'r+');
+$csv_file = fopen('php://temp/maxmemory:'.(FILE_MEM_LIMIT * 1024 * 1024), 'r+');
 # for header line
 fputcsv(
     $csv_file, array(
