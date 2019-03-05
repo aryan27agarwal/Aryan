@@ -27,4 +27,15 @@ class Idea {
         $part = \Symfony\Component\Yaml\Yaml::dump($this->$data);
         return TeamUpdate::sendUpdate(sprintf(IDEA_TG_MESSAGE, $part));
     }
+
+    public static function reglist() {
+        $sql = "SELECT * FROM idea";
+        $db = new Database;
+        $stmt = $db->query($sql, []);
+        $records = array();
+        foreach($stmt as $row) {
+            $records[] = $row;
+        }
+        return $records;
+    }
 }
